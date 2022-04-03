@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body{
+    font-family:Montserrat;
+    background:rgb(26, 26, 26);
+    color:white;
+}
+.activeLink{
+    background-image:url("https://www.seekpng.com/png/full/984-9840972_free-download-monochrome.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    color:aqua;
+}
+.hoverLink{
+    position:relative;
+    padding:5px 0;
+}
+.hoverLink::before{
+    content:"";
+    position:absolute;
+    height:2px;
+    bottom:0;
+    left:0;
+    width:0px;
+    transition: all 0.3s ease;
+    background:white;
+}
+.hoverLink:hover::before{
+    width:100%;
+}
+.gradientText{
+    background: -webkit-linear-gradient(45deg,aqua, aquamarine);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradientButton{
+    background: -webkit-linear-gradient(45deg,aqua, aquamarine);
+    padding:0.75rem 2rem;
+    border-radius:0.25rem;
+    color:white;
+    cursor:pointer;
+}
+.gradientFilter{
+    background:transparent;
+    padding:0.25rem 2rem;
+    border:2px solid aquamarine;
+    cursor:pointer;
+}
+.gradientFilterActive{
+    background: -webkit-linear-gradient(45deg, aquamarine,aqua);
+}
+.gradientButton:hover{
+    background: -webkit-linear-gradient(45deg, aquamarine,aqua);
+}
+.gradientBackground{
+    background: -webkit-linear-gradient(45deg, aquamarine,aqua);
+}
+.gradientRightBorder{
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        aqua, 
+        rgba(0, 0, 0, 1)
+      ) 1 100%;
+}
+
