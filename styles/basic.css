@@ -1,150 +1,178 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-body{
-    font-family:Montserrat;
-    background:rgb(26, 26, 26);
-    color:white;
-}
-.activeLink{
-    background-image:url("https://www.seekpng.com/png/full/984-9840972_free-download-monochrome.png");
-    background-size:contain;
-    background-repeat: no-repeat;
-    color:#00ffff;
-}
-.hoverLink{
-    position:relative;
-    padding:5px 0;
-}
-.hoverLink::before{
-    content:"";
-    position:absolute;
-    height:2px;
-    bottom:0;
-    left:0;
-    width:0px;
-    transition: all 0.3s ease;
-    background:white;
-}
-.hoverLink:hover::before{
-    width:100%;
-}
-.gradientText{
-    background: -webkit-linear-gradient(45deg,aqua, aquamarine);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.gradientButton{
-    background: -webkit-linear-gradient(45deg,aqua, aquamarine);
-    padding:0.75rem 2rem;
-    border-radius:0.25rem;
-    color:white;
-    cursor:pointer;
-}
-.gradientFilter{
-    background:transparent;
-    padding:0.25rem 2rem;
-    border:2px solid aquamarine;
-    cursor:pointer;
-}
-.gradientFilterActive{
-    background: -webkit-linear-gradient(45deg, aquamarine,aqua);
-}
-.gradientButton:hover{
-    background: -webkit-linear-gradient(45deg, aquamarine,aqua);
-}
-.gradientBackground{
-    background: -webkit-linear-gradient(45deg, aquamarine,aqua);
-}
-.gradientRightBorder{
-    border-right-width: 3px;
-    border-right-style: solid;
-    border-image: 
-      linear-gradient(
-        to bottom, 
-        aqua, 
-        rgba(0, 0, 0, 1)
-      ) 1 100%;
-}
-.gradientBorder{
-    border-width: 3px;
-    border-style: solid;
-    border-image: 
-      linear-gradient(
-        to bottom, 
-        aqua, 
-        rgba(0, 0, 0, 1)
-      ) 1 100%; 
-}
-/* body {
 
-  } */
-  
-  .container {
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:auto;
-  }
-  
-  .glitch {
-    font-size: 5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: relative;
+body {
+  font-family: Montserrat;
+  background: #1a1a1a;
+  color: white;
+}
+
+.activeLink {
+  background-image: url("https://www.seekpng.com/png/full/984-9840972_free-download-monochrome.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #00ffff;
+}
+
+.hoverLink {
+  position: relative;
+  padding: 5px 0;
+}
+
+.hoverLink::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.hoverLink:hover::before {
+  width: 100%;
+}
+
+.gradientText {
+  background: -webkit-linear-gradient(45deg, aqua, aquamarine);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradientButton {
+  background: -webkit-linear-gradient(45deg, aqua, aquamarine);
+  padding: 0.75rem 2rem;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+}
+
+.gradientFilter {
+  background: transparent;
+  padding: 0.25rem 2rem;
+  border: 2px solid aquamarine;
+  cursor: pointer;
+}
+
+.gradientFilterActive {
+  background: -webkit-linear-gradient(45deg, aquamarine, aqua);
+}
+
+.gradientButton:hover {
+  background: -webkit-linear-gradient(45deg, aquamarine, aqua);
+}
+
+.gradientBackground {
+  background: -webkit-linear-gradient(45deg, aquamarine, aqua);
+}
+
+.gradientRightBorder {
+  border-right-width: 3px;
+  border-right-style: solid;
+  border-image:
+    linear-gradient(to bottom,
+      aqua,
+      rgba(0, 0, 0, 1)) 1 100%;
+}
+
+.gradientBorder {
+  border-width: 3px;
+  border-style: solid;
+  border-image:
+    linear-gradient(to bottom,
+      aqua,
+      rgba(0, 0, 0, 1)) 1 100%;
+}
+
+.cursor {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(241, 241, 241);
+  mix-blend-mode: difference;
+
+  /* mix-blend-mode: color-burn;
+  mix-blend-mode: exclusion; */
+  z-index: 40;
+  /* transition: all 0.1s ease; */
+}
+
+.container {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.glitch {
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+    0.025em 0.04em 0 #fffc00;
+  animation: glitch 725ms infinite;
+}
+
+.glitch span {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.glitch span:first-child {
+  animation: glitch 500ms infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+  transform: translate(-0.04em, -0.03em);
+  opacity: 0.75;
+}
+
+.glitch span:last-child {
+  animation: glitch 375ms infinite;
+  clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+  transform: translate(0.04em, 0.03em);
+  opacity: 0.75;
+}
+
+@keyframes glitch {
+  0% {
     text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
       0.025em 0.04em 0 #fffc00;
-    animation: glitch 725ms infinite;
   }
-  
-  .glitch span {
-    position: absolute;
-    top: 0;
-    left: 0;
+
+  15% {
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+      0.025em 0.04em 0 #fffc00;
   }
-  
-  .glitch span:first-child {
-    animation: glitch 500ms infinite;
-    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
-    transform: translate(-0.04em, -0.03em);
-    opacity: 0.75;
+
+  16% {
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+      -0.05em -0.05em 0 #fffc00;
   }
-  
-  .glitch span:last-child {
-    animation: glitch 375ms infinite;
-    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
-    transform: translate(0.04em, 0.03em);
-    opacity: 0.75;
+
+  49% {
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+      -0.05em -0.05em 0 #fffc00;
   }
-  
-  @keyframes glitch {
-    0% {
-      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-        0.025em 0.04em 0 #fffc00;
-    }
-    15% {
-      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-        0.025em 0.04em 0 #fffc00;
-    }
-    16% {
-      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-        -0.05em -0.05em 0 #fffc00;
-    }
-    49% {
-      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-        -0.05em -0.05em 0 #fffc00;
-    }
-    50% {
-      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-        0 -0.04em 0 #fffc00;
-    }
-    99% {
-      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-        0 -0.04em 0 #fffc00;
-    }
-    100% {
-      text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
-        -0.04em -0.025em 0 #fffc00;
-    }
+
+  50% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+      0 -0.04em 0 #fffc00;
   }
-  
+
+  99% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+      0 -0.04em 0 #fffc00;
+  }
+
+  100% {
+    text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+      -0.04em -0.025em 0 #fffc00;
+  }
+}
