@@ -58,7 +58,7 @@ export const navbarLinksContainer={
     animate:{
         opacity:1,
         transition:{
-            staggerChildren:0.3,
+            staggerChildren:0.1,
             delayChildren:0.6
         }
     },
@@ -90,5 +90,32 @@ export const card={
     },
     exit:{
         opacity:0,
+    }
+}
+export const teamMembersContainer={
+    initial:{
+        opacity:1,
+    },
+    animate:{
+        opacity:1,
+        transition:{
+            staggerChildren:0.1,
+        }
+    },
+    exit:{
+        opacity:0,
+    }
+}
+export const teamHead={
+    initial:{
+        y:"50px",
+        opacity:0,
+    },
+    animate:{
+        y:0,
+        opacity:1,
+    },
+    exit:{
+        opacity:0
     }
 }
