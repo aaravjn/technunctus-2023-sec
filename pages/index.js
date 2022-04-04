@@ -98,6 +98,14 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="container">
+            <p className="glitch">
+              <span aria-hidden="true">Let&apos;s do it</span>
+              Let&apos;s do it
+              <span aria-hidden="true">Let&apos;s do it</span>
+            </p>
+      </div>
+
       <motion.div className="sm:h-screen grid place-items-center">
         <div>
           <p className='text-3xl my-8 mr-8 text-center'>Team Members</p>
