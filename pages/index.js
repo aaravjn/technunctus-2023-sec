@@ -6,6 +6,9 @@ import Link from 'next/link'
 import KeyboardCommandKeyIcon from '@mui/icons-material/KeyboardCommandKey';
 import events from "../utils/events"
 import Card from "../components/Card"
+import Profile from "../components/Profile"
+import eventHeads from "../utils/profile"
+import Tilt from "react-parallax-tilt"
 
 export default function Home() {
   return (
@@ -94,6 +97,31 @@ export default function Home() {
           </Link>
         </div>
       </div>
+
+      <motion.div className="sm:h-screen grid place-items-center">
+        <div>
+          <p className='text-3xl my-8 mr-8 text-center'>Team Members</p>
+          <div className='grid sm:grid-cols-3 gap-8 mx-8 sm:mx-20'>
+            {eventHeads.slice(0,5).map((item,index)=>{
+              return(
+                <Tilt key={item.key}>
+                  <Profile {...item}/>
+                </Tilt>
+              )
+            }) }
+            <Link
+              href="/t"
+              passHref={true}
+            >
+              <motion.a 
+                whileTap={{scale:0.95}}
+                className='m-1 grid place-items-center border border-[#00ffff] rounded'>
+                  <p>See More...</p>
+              </motion.a>
+            </Link>
+          </div>
+        </div>
+      </motion.div>
 
 
     </div>

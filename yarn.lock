@@ -2179,6 +2179,11 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   "version" "17.0.2"
 
+"react-parallax-tilt@^1.6.6":
+  "integrity" "sha512-OL7gCV/auAUfIsUjb3gLKj7I9M8VY9rU5JgsG3H497gMa6dLDPF24SbE2eX+WDRETgNf+mTV7dYD1IW0lVZNTw=="
+  "resolved" "https://registry.npmjs.org/react-parallax-tilt/-/react-parallax-tilt-1.6.6.tgz"
+  "version" "1.6.6"
+
 "react-transition-group@^4.4.2":
   "integrity" "sha512-/RNYfRAMlZwDSr6z4zNKV6xu53/e2BuaBbGhbyYIXTrmgu/bGHzmqOs7mJSJBHy9Ud+ApHx3QjrkKSp1pxvlFg=="
   "resolved" "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.2.tgz"

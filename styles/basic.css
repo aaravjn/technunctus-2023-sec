@@ -8,7 +8,7 @@ body{
     background-image:url("https://www.seekpng.com/png/full/984-9840972_free-download-monochrome.png");
     background-size:contain;
     background-repeat: no-repeat;
-    color:aqua;
+    color:#00ffff;
 }
 .hoverLink{
     position:relative;
@@ -63,5 +63,15 @@ body{
         aqua, 
         rgba(0, 0, 0, 1)
       ) 1 100%;
+}
+.gradientBorder{
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        aqua, 
+        rgba(0, 0, 0, 1)
+      ) 1 100%; 
 }
 
