@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { card } from '../utils/framer'
 
-const Card = ({title,image,description,aspectRatioImage=1,buttonText="Register"}) => {
+const Card = ({title,image,description,broughtToYouBy,aspectRatioImage=1,buttonText="Register"}) => {
   return (
     <motion.div 
       initial="initial"
@@ -23,7 +23,8 @@ const Card = ({title,image,description,aspectRatioImage=1,buttonText="Register"}
             />    
         </div>
         <div className="p-4">
-            <p>{title}</p>
+            <p className="gradientText text-xs">{broughtToYouBy}</p>
+            <b>{title}</b>
             <p className="text-sm my-4">{description}</p>
             <button className='gradientButton'>{buttonText}</button>
         </div>

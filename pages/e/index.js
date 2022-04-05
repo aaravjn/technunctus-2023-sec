@@ -20,7 +20,7 @@ const Events = () => {
         <div className='mb-20 mt-[32px]'>
             <div className='mx-8 sm:mx-20 mb-12 flex justify-end flex-wrap'>
                 <p onClick={()=>setFilter(0)} className={`${filter===0&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>All</p>
-                <p onClick={()=>setFilter(1)} className={`${filter===1&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>Web Development</p>
+                <p onClick={()=>setFilter(1)} className={`${filter===1&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>Coding Club</p>
                 <p onClick={()=>setFilter(2)} className={`${filter===2&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>Cybersecurity</p>
                 <p onClick={()=>setFilter(3)} className={`${filter===3&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>AI/ML</p>
                 <p onClick={()=>setFilter(4)} className={`${filter===4&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>Tech Nights</p>

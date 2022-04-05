@@ -8,8 +8,8 @@ import CallIcon from '@mui/icons-material/Call';
 const Profile = ({key,name,type,contact_no,email,source_url}) => {
   return (
     <div className="rounded bg-black">
-        <div className='rounded p-2 grid grid-cols-[128px,1fr]'>
-            <div className="relative h-32 w-32 rounded">
+        <div className='rounded p-2 grid sm:grid-cols-[128px,1fr]'>
+            <div className="relative h-32 w-32 sm:rounded">
                 <Image 
                 src={source_url}
                 alt="Profile Icon"

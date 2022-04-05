@@ -82,7 +82,7 @@ export default function Home() {
               </div>
               <div className="p-4 sm:p-12">
                 <p className='text-3xl mb-8'>Word From Team</p>
-                <p className='text-sm sm:text'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                <p className='text-sm sm:text'>Technunctus’22 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.</p>
                 <Link
                   href="/a"
                 >
@@ -94,7 +94,7 @@ export default function Home() {
       </motion.div>
 
 
-      <div ref={titleSponsorRef} onMouseMove={(e)=>{exactLocation(e)}} className="sm:pt-40 overflow-hidden pb-20 grid place-items-center relative">
+      <div ref={titleSponsorRef} onMouseMove={(e)=>{exactLocation(e)}} className="pt-20 sm:pt-40 overflow-hidden pb-20 grid place-items-center relative">
         <div ref={cursorRef} className="cursor"></div>
         <div className="text-center text-2xl sm:text-3xl">
           <p>Title Sponsors</p>
