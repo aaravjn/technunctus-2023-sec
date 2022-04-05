@@ -26,7 +26,7 @@ const About = () => {
 
         <div className="mb-12 sm:mb-40 grid place-items-center">
         <div className="grid  sm:grid-cols-[0.5fr,0.6fr] justify-center  items-center "
-        style={{height:"calc(100vh - 92px)"}}>
+        >
     
         <div className=' h-80 sm:h-full relative ' >
            
