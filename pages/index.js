@@ -1,7 +1,9 @@
+import React,{useState,useRef} from "react"
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { motion } from 'framer-motion'
+import { motion,useViewportScroll,useTransform} from 'framer-motion'
+import { useInView } from "react-intersection-observer"
 import Link from 'next/link'
 import KeyboardCommandKeyIcon from '@mui/icons-material/KeyboardCommandKey';
 import events from "../utils/events"
@@ -9,8 +11,31 @@ import Card from "../components/Card"
 import Profile from "../components/Profile"
 import eventHeads from "../utils/profile"
 import Tilt from "react-parallax-tilt"
+import { teamHead } from "../utils/framer"
 
 export default function Home() {
+
+  const { scrollY, scrollYProgress } = useViewportScroll()
+  const { ref: aboutContainer, inView } = useInView({ threshold: 0.5 });
+  const cursorRef=useRef(null)
+  const titleSponsorRef=useRef(null)
+
+
+  const transform1 = useTransform(scrollY, [2200, 3000], [0.2, 1]);
+  const transform2 = useTransform(scrollY, [1800, 2200], [0.2, 1]);
+  const transform3 = useTransform(scrollY, [1400, 1800], [0.2, 1]);
+  const transform4 = useTransform(scrollY, [1000, 1400], [0.2, 1]);
+
+  const exactLocation=(e)=>{
+    console.log(e.pageX,e.pageY,cursorRef.current)
+    let bounds = titleSponsorRef.current.getBoundingClientRect();
+    let x = e.clientX - bounds.left;
+    let y = e.clientY - bounds.top;
+
+    cursorRef.current.style.left=x+"px";
+    cursorRef.current.style.top=y+"px";
+  }
+
   return (
     <div>
       <Head>
@@ -21,7 +46,7 @@ export default function Home() {
 
       <div className="grid sm:grid-cols-[0.6fr,0.25fr] items-center "
         style={{height:"calc(100vh - 92px)"}}
-      >
+           >
          <div className="sm:p-20 text-center sm:text-left">
            <motion.p className="text-xl sm:text-3xl text-white"> Lorem Ipsum is simply dummy .</motion.p>
            <motion.p className="text-5xl sm:text-9xl gradientText font-bold"> Technunctus</motion.p>
@@ -39,7 +64,12 @@ export default function Home() {
          </div>
       </div>
 
-      <div className="mb-12 sm:mb-40 grid place-items-center">
+      <motion.div 
+        initial="initial"
+        exit="exit"
+        animate={inView && "animate"}
+        variants={teamHead}
+        ref={aboutContainer} className="mb-12 sm:mb-0 grid place-items-center">
         <div className="bg-black mx-8 sm:mx-20 rounded ">
             <div className='grid sm:grid-cols-[0.3fr,0.7fr] justify-center  items-center'>
               <div className="h-80 sm:h-full relative gradientRightBorder">
@@ -61,10 +91,11 @@ export default function Home() {
               </div>
             </div>
         </div>
-      </div>
+      </motion.div>
 
 
-      <div className="mb-20 grid place-items-center">
+      <div ref={titleSponsorRef} onMouseMove={(e)=>{exactLocation(e)}} className="sm:pt-40 overflow-hidden pb-20 grid place-items-center relative">
+        <div ref={cursorRef} className="cursor"></div>
         <div className="text-center text-2xl sm:text-3xl">
           <p>Title Sponsors</p>
           <div>

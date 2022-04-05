@@ -38,7 +38,7 @@ const Navbar = () => {
                     exit="exit"
                     variants={navbarRight}
                     className='grid place-items-center bg-[#000]'>
-                    <IconButton className="absolute top-4 right-4 text-white" onClick={()=>setShowNav(!showNav)}>
+                    <IconButton style={{position:"absolute",top:"1rem",right:"1rem",color:"white"}} className="absolute top-4 right-4 text-white" onClick={()=>setShowNav(!showNav)}>
                         <CloseIcon/>
                     </IconButton>
                     <div>
