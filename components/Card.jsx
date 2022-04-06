@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { card } from '../utils/framer'
 
-const Card = ({title,image,description,broughtToYouBy,aspectRatioImage=1,buttonText="Register"}) => {
+const Card = ({title,image,description,broughtToYouBy="****",aspectRatioImage=1,buttonText="Register"}) => {
   return (
     <motion.div 
       initial="initial"
