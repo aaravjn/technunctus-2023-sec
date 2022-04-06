@@ -11,7 +11,6 @@ import { useRouter } from 'next/router';
 const Navbar = () => {
 
   const router=useRouter()
-  console.log(router)
   const [showNav,setShowNav]=React.useState(false)
   return (
     <>
@@ -26,11 +25,11 @@ const Navbar = () => {
                     variants={navbarLeft}
                     className='hidden sm:block relative gradientRightBorder'
                     >
-                      <Image 
-                       src="https://images.unsplash.com/photo-1534224039826-c7a0eda0e6b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                       alt="Navbar Cover"
-                       layout="fill"
-                      />
+                        <Image 
+                        src="https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWJzdHJhY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
+                        alt="Navbar Cover"
+                        layout="fill"
+                        />
                 </motion.div>
                 <motion.div 
                     initial="initial"
@@ -97,12 +96,18 @@ const Navbar = () => {
         }
         </AnimatePresence>
         <div className='flex justify-between p-4 items-center bg-black'>
-            <Image
-            src="/static/logo.png"
-            alt="TECH. LOGO"
-            height="60"
-            width="60"
-            />
+            <Link
+                href="/"
+                passHref={true}
+            >                            
+                <Image
+                src="/static/logo.png"
+                alt="TECH. LOGO"
+                height="60"
+                width="60"
+                className='cursor-pointer'
+                />
+            </Link>
             <IconButton onClick={()=>setShowNav(!showNav)}>
                 <MenuIcon className="text-white"/>
             </IconButton>

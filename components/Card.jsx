@@ -23,9 +23,9 @@ const Card = ({title,image,description,broughtToYouBy,aspectRatioImage=1,buttonT
             />    
         </div>
         <div className="p-4">
-            <p className="gradientText text-xs">{broughtToYouBy}</p>
+            <p className="gradientText text-xs">{broughtToYouBy.slice(4,)}</p>
             <b>{title}</b>
-            <p className="text-sm my-4">{description}</p>
+            <p className="text-sm my-4">{description.slice(0,150)} ...</p>
             <button className='gradientButton'>{buttonText}</button>
         </div>
     </motion.div>

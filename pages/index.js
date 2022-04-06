@@ -12,13 +12,15 @@ import Profile from "../components/Profile"
 import eventHeads from "../utils/profile"
 import Tilt from "react-parallax-tilt"
 import { teamHead } from "../utils/framer"
+import {useRouter} from "next/router"
 
 export default function Home() {
 
   const { scrollY, scrollYProgress } = useViewportScroll()
-  const { ref: aboutContainer, inView } = useInView({ threshold: 0.5 });
+  const { ref: aboutContainer, inView } = useInView({ threshold: 0.2 });
   const cursorRef=useRef(null)
   const titleSponsorRef=useRef(null)
+  const router=useRouter()
 
 
   const transform1 = useTransform(scrollY, [2200, 3000], [0.2, 1]);
@@ -44,13 +46,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="grid sm:grid-cols-[0.6fr,0.25fr] items-center "
+      <div className="grid sm:grid-cols-[0.6fr,0.25fr] items-center coverBg"
         style={{height:"calc(100vh - 92px)"}}
            >
          <div className="sm:p-20 text-center sm:text-left">
            <motion.p className="text-xl sm:text-3xl text-white"> Lorem Ipsum is simply dummy .</motion.p>
-           <motion.p className="text-5xl sm:text-9xl gradientText font-bold"> Technunctus</motion.p>
-           <button className="gradientButton mt-4">Technunctus</button>
+           <motion.p className="text-5xl sm:text-9xl  font-bold "> Tec<motion.span 
+            
+             className="hTitle">h</motion.span>nunctus</motion.p>
+           <button className="gradientButton mt-4" onClick={()=>router.push("/e")}>Check Events</button>
          </div>
          <div className='hidden sm:block relative'>
            <Image
