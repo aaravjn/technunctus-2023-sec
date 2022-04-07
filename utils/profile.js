@@ -1,13 +1,6 @@
 const profile=[{
-    key:1,
-    name:"Manbir Singh Randhawa",
-    type:"Web Content",
-    contact_no:"+91 6005285787",
-    email:"2019uee0115@iitjammu.ac.in",
-    source_url:"/static/teamheads/manbir.jpeg"
-},{
     key:2,
-    name:"Rishabhdhwaj Bharadwaj",
+    name:"Rishabh Bharadwaj",
     type:"Social Media and Coverage",
     contact_no:"+91 9873240044",
     email:"2019ume0184@iitjammu.ac.in",

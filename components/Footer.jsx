@@ -69,48 +69,24 @@ const Footer = () => {
               </li>
             </ul>
             <ul>
+              <li className="m-2 italic text-sm">Developer&apos;s github profile</li>
               <li>
                 <Link
-                  href="/h"
+                  href="https://github.com/Spider8019"
                   passHref={true}
                 >
                   <motion.a
-                    className="hoverLink m-2 ">Highlights</motion.a>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/h"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">Highlights</motion.a>
+                    className="hoverLink m-2 ">spider8019</motion.a>
                 </Link>
               </li>          <li>
                 <Link
-                  href="/h"
+                  href="https://github.com/ashutoshc8101"
                   passHref={true}
                 >
                   <motion.a
-                    className="hoverLink m-2 ">Highlights</motion.a>
+                    className="hoverLink m-2 ">ashutoshc8101</motion.a>
                 </Link>
-              </li>          <li>
-                <Link
-                  href="/h"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">Highlights</motion.a>
-                </Link>
-              </li>          <li>
-                <Link
-                  href="/h"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">Highlights</motion.a>
-                </Link>
-              </li>
+              </li>       
 
             </ul>
             {/* <ul>

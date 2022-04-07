@@ -46,15 +46,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="grid sm:grid-cols-[0.6fr,0.25fr] items-center coverBg"
+      <div className="grid sm:grid-cols-[0.6fr,0.25fr] relative items-center coverBg"
         style={{height:"calc(100vh - 92px)"}}
            >
+         <Image src="/static/page.png"
+         alt="logo headers"
+         layout="fill"
+         objectFit="cover"
+         objectPosition={"bottom"}
+         className="-z-10"
+         />
          <div className="sm:p-20 text-center sm:text-left">
-           <motion.p className="text-xl sm:text-3xl text-white"> Lorem Ipsum is simply dummy .</motion.p>
+         <motion.p className="text-xl sm:text-3xl text-white"> IIT Jammu presents</motion.p>
+
            <motion.p className="text-5xl sm:text-9xl  font-bold "> Tec<motion.span 
             
              className="hTitle">h</motion.span>nunctus</motion.p>
-           <button className="gradientButton mt-4" onClick={()=>router.push("/e")}>Check Events</button>
+          <motion.p className="text-xl sm:text-3xl text-white"> Season 2022</motion.p>
+
+           <button className="gradientButton mt-4 cursor-pointer" onClick={()=>router.push("/e")}>Check Events</button>
          </div>
          <div className='hidden sm:block relative'>
            <Image
@@ -107,7 +117,7 @@ export default function Home() {
               href="/titlesponsorswebsite"
             >
               <a className='flex justify-center text-6xl sm:text-7xl m-4'>
-                  <KeyboardCommandKeyIcon className="text-6xl sm:text-7xl text-[#39ff14]"/>
+                  <KeyboardCommandKeyIcon className="text-[#39ff14]" style={{fontSize:"5rem"}}/>
                   <p className="ml-4 font-semibold">Android</p>
               </a>
             </Link>
