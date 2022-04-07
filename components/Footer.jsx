@@ -6,6 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LanguageIcon from '@mui/icons-material/Language';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => {
   return (
@@ -60,7 +61,7 @@ const Footer = () => {
               </li> 
               <li>
                 <Link
-                  href="/t"
+                  href="/t/night"
                   passHref={true}
                 >
                   <motion.a
@@ -152,7 +153,7 @@ const Footer = () => {
           <ul className='grid gap-4 grid-cols-8 mt-4'>
             <li>
               <Link
-                href="/h"
+                href="https://www.iitjammu.ac.in/"
                 passHref={true}
               >
                 <motion.a
@@ -161,7 +162,16 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/h"
+                href="https://www.linkedin.com/school/iitjammu/?originalSubdomain=in"
+                passHref={true}
+              >
+                <motion.a
+                  className="hover:gradientText"><LinkedInIcon/></motion.a>
+              </Link>
+            </li>   
+            <li>
+              <Link
+                href="https://twitter.com/IITJammu?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                 passHref={true}
               >
                 <motion.a
@@ -169,7 +179,7 @@ const Footer = () => {
               </Link>
             </li>          <li>
               <Link
-                href="/h"
+                href="https://www.facebook.com/IITJammuOfficial/"
                 passHref={true}
               >
                 <motion.a
@@ -177,7 +187,7 @@ const Footer = () => {
               </Link>
             </li>          <li>
               <Link
-                href="/h"
+                href="https://www.instagram.com/technunctus/"
                 passHref={true}
               >
                 <motion.a

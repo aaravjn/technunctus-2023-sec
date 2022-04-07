@@ -62,7 +62,7 @@ export default function Home() {
            <motion.p className="text-5xl sm:text-9xl  font-bold "> Tec<motion.span 
             
              className="hTitle">h</motion.span>nunctus</motion.p>
-          <motion.p className="text-xl sm:text-3xl text-white"> Season 2022</motion.p>
+          <motion.p className="text-xl sm:text-3xl text-white"> 2022</motion.p>
 
            <button className="gradientButton mt-4 cursor-pointer" onClick={()=>router.push("/e")}>Check Events</button>
          </div>
