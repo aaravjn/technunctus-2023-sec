@@ -149,7 +149,7 @@ const Footer = () => {
           />
           <b className='mt-4 text-3xl font-bold block'>Technunctus</b>
           <b>Indian Institute of Technology, Jammu</b>
-          <p className='text-sm'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <p className='text-sm'>Jagti, NH-44 , PO Nagrota<br/>Jammu - 181 221 J&K,  India<br/>Tel.: 0191-2570381 </p>
           <ul className='grid gap-4 grid-cols-8 mt-4'>
             <li>
               <Link

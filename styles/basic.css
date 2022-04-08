@@ -9,6 +9,7 @@ body {
   font-family: Montserrat;
   background: #1a1a1a;
   color: white;
+  overflow-x:hidden;
 }
 
 .coverBg{

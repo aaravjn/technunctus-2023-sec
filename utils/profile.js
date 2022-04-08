@@ -1,4 +1,39 @@
 const profile=[{
+    key:1,
+    name:"Shreyas Chatterjee",
+    type:"Chairperson",
+    contact_no:"+91 9873240044",
+    email:"2019ume0184@iitjammu.ac.in",
+    source_url:"https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+},{
+    key:1001,
+    name:"Saurav Kumar Srivastava",
+    type:"Convener",
+    contact_no:"+91 6005530882",
+    email:"2019uce0058@iitjammu.ac.in",
+    source_url:"https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+},{
+    key:1002,
+    name:"Vansh Rai Saini",
+    type:"Convener",
+    contact_no:"+91 9654458060",
+    email:"2019ume0200@iitjammu.ac.in",
+    source_url:"https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+},{
+    key:1003,
+    name:"Priyanshu Kumar",
+    type:"Convener",
+    contact_no:"+91 6388115067",
+    email:"2019umt0161@iitjammu.ac.in",
+    source_url:"https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+},{
+    key:1004,
+    name:"Shreyash Chatterjee",
+    type:"Chairperson",
+    contact_no:"+91 9873240044",
+    email:"2019ume0184@iitjammu.ac.in",
+    source_url:"https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+},{
     key:2,
     name:"Rishabh Bharadwaj",
     type:"Social Media and Coverage",

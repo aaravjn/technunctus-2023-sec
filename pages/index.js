@@ -155,7 +155,7 @@ export default function Home() {
         <div>
           <p className='text-3xl my-8 mr-8 text-center'>Team Members</p>
           <div className='grid sm:grid-cols-3 gap-8 mx-8 sm:mx-20'>
-            {eventHeads.slice(0,5).map((item,index)=>{
+            {eventHeads.slice(0,4).map((item,index)=>{
               return(
                 <Tilt key={item.key}>
                   <Profile {...item}/>
