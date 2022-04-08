@@ -27,7 +27,6 @@ background:linear-gradient(transparent,#1a1a1a);
 
 .hTitle{
   position:relative;
-  transform: rotate(30deg);
   animation:glow 1s linear infinite;
   animation-fill-mode: forwards;
   animation-direction: alternate;
