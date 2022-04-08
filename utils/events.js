@@ -27,7 +27,7 @@ const array = [{
     drive_link: ""
 }, {
     key: 8019,
-    title: "Next Gen Blockchain",
+    title: "NextGen Blockchain",
     broughtToYouBy: "all Coding Club ",
     description: "“Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network.” Hard to understand, right? To gain a deeper understanding of blockchain in a simple yet effective way, attend this talk by Mr Raj Kapoor, founder and chairman of India Blockchain Alliance, the largest in India amongst their peers. You sure are to benefit after learning about the hottest new technology in the IT sector, which has taken the world by storm.",
     image: "https://images.unsplash.com/photo-1644143379190-08a5f055de1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60",
@@ -107,7 +107,7 @@ const array = [{
 
 }, {
     key: 11,
-    title: "TR-SAE-URE",
+    title: "Tr-SAE-ure",
     broughtToYouBy: "all SAE Club",
     description: "Well, this tr-SAE-ure is not the one from the movie ‘Treasure Island’, but rather a bit tricky. This, as the name suggests, is indeed a hunt to unravel the logical minds out there testing on their acumen on automotives as the various levels unfold ! A quiz competition on automobiles and moulded as a treasure hunt to test the logical and thinking ability of the participants. It will have two rounds.",
     image: "https://images.unsplash.com/photo-1581092335397-9583eb92d232?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lY2hhbmljYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60",
