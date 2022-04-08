@@ -78,7 +78,7 @@ export default function Home() {
          </div>
       </div>
 
-      <motion.div 
+      {/* <motion.div 
         initial="initial"
         exit="exit"
         animate={inView && "animate"}
@@ -105,7 +105,7 @@ export default function Home() {
               </div>
             </div>
         </div>
-      </motion.div>
+      </motion.div> */}
 
 
       <div ref={titleSponsorRef} onMouseMove={(e)=>{exactLocation(e)}} className="pt-20 sm:pt-40 overflow-hidden pb-20 grid place-items-center relative">
