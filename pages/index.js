@@ -59,10 +59,14 @@ export default function Home() {
         <div className="sm:p-20 text-center sm:text-left">
           <motion.p className="text-xl sm:text-3xl text-white"> IIT Jammu presents</motion.p>
 
-          <motion.p className="text-5xl sm:text-9xl  font-bold hTitle"> Technunctus</motion.p>
+          <motion.p className="text-5xl sm:text-[8vw]  font-bold hTitle"> Technunctus</motion.p>
           <motion.p className="text-xl sm:text-3xl text-white"> 2022</motion.p>
 
-          <button className="gradientButton mt-4 cursor-pointer" onClick={() => router.push("/e")}>Check Events</button>
+          <Link  href="/e">
+            <a className="gradientButton mt-4 cursor-pointer inline-block">
+            Check Events    
+              </a>
+          </Link>
         </div>
         <div className='hidden sm:block relative'>
           <Image
@@ -81,6 +85,7 @@ export default function Home() {
         exit="exit"
         animate={inView && "animate"}
         variants={teamHead}
+        style={{height:"80vh"}}
         ref={aboutContainer} className="mb-12 sm:mb-0 grid place-items-center">
         <div className="bg-black mx-8 sm:mx-20 rounded ">
           <div className='grid sm:grid-cols-[0.3fr,0.7fr] justify-center  items-center'>
