@@ -78,7 +78,7 @@ export default function Home() {
          </div>
       </div>
 
-      {/* <motion.div 
+      <motion.div 
         initial="initial"
         exit="exit"
         animate={inView && "animate"}
@@ -105,10 +105,10 @@ export default function Home() {
               </div>
             </div>
         </div>
-      </motion.div> */}
+      </motion.div>
 
 
-      <div ref={titleSponsorRef} onMouseMove={(e)=>{exactLocation(e)}} className="pt-20 sm:pt-40 overflow-hidden pb-20 grid place-items-center relative">
+      {/* <div ref={titleSponsorRef} onMouseMove={(e)=>{exactLocation(e)}} className="pt-20 sm:pt-40 overflow-hidden pb-20 grid place-items-center relative">
         <div ref={cursorRef} className="cursor"></div>
         <div className="text-center text-2xl sm:text-3xl">
           <p>Title Sponsors</p>
@@ -124,7 +124,7 @@ export default function Home() {
             <p>Marsh McLennan Global Services India Pvt Ltd</p>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       <div className="sm:h-screen grid place-items-center">
