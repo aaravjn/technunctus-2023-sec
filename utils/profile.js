@@ -2,8 +2,8 @@ const profile = [{
     key: 1,
     name: "Shreyas Chatterjee",
     type: "Chairperson",
-    contact_no: "+91 9873240044",
-    email: "2019ume0184@iitjammu.ac.in",
+    contact_no: "+91 7000172797",
+    email: "2019ucs0097@iitjammu.ac.in",
     source_url: "/static/teamheads/cp.jpeg"
 }, {
     key: 1001,
@@ -75,28 +75,28 @@ const profile = [{
     contact_no: "+91 9622009841'",
     email: "2019umt0154@iitjammu.ac.in",
     source_url: "/static/teamheads/team8.jpeg"
-},{
+}, {
     key: 2,
     name: "Himani Khobragade",
     type: "Event Management Head",
     contact_no: "+91 07024824825",
     email: "2020ucs0116@iitjammu.ac.in",
     source_url: "/static/teamheads/team13.jpg"
-},{
+}, {
     key: 1,
     name: "Anand Kumar",
     type: "Event Management Head",
     contact_no: "+91 9696490401",
     email: "2020uch0024@iitjammu.ac.in",
     source_url: "/static/teamheads/team19.jpg"
-},{
+}, {
     key: 1,
     name: "Bharati Padhy",
     type: "Sponsorship Head",
     contact_no: "+91 8983694292",
     email: "2020pcs1009@iitjammu.ac.in",
     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
-},{
+}, {
     key: 4,
     name: "Siddhartha Joshi",
     type: "Sponsorship Head",
@@ -127,7 +127,7 @@ const profile = [{
     contact_no: "+91 9414700680",
     email: "2019ume0204@iitjammu.ac.in",
     source_url: "/static/teamheads/team20.png"
-}, 
+},
 {
     key: 2,
     name: "Sharan Kumar",
@@ -150,21 +150,21 @@ const profile = [{
     contact_no: "+91 8543995249",
     email: "2020uee0150@iitjammu.ac.in",
     source_url: "/static/teamheads/team14.jpg"
-},{
+}, {
     key: 2,
     name: "Aditya Vikram Singh ",
     type: "Infrastructure Head ",
     contact_no: "+91 9455040521",
     email: "2020uce0071@iitjammu.ac.in",
     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
-},{
+}, {
     key: 3,
     name: "Jeetendra Prajapati",
     type: "PR and Outreach Head",
     contact_no: "+91 6261890899",
     email: "2019ume0210@iitjammu.ac.in",
     source_url: "/static/teamheads/team17.jpg"
-},{
+}, {
     key: 3,
     name: "Quadeer Rehman",
     type: "PR and Outreach Head",
@@ -187,21 +187,21 @@ const profile = [{
     contact_no: "+91 9873240044",
     email: "2019ume0184@iitjammu.ac.in",
     source_url: "/static/teamheads/team3.jpg"
-},{
+}, {
     key: 2,
     name: "Prarthana Tripathi",
     type: "Hospitality Head",
     contact_no: "+91 9687650654",
     email: "2019ume0212@iitjammu.ac.in",
     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
-},{
+}, {
     key: 3,
     name: "Divya ",
     type: "Hospitality Head",
     contact_no: "+91 9518273631",
     email: "2020ucs0093@iitjammu.ac.in",
     source_url: "/static/teamheads/team12.jpg"
-},{
+}, {
     key: 3,
     name: "Manbir Singh Randhawa",
     type: "Security Head",
@@ -215,7 +215,7 @@ const profile = [{
     contact_no: "+91 08082955886",
     email: "2019uch0002@iitjammu.ac.in",
     source_url: "/static/teamheads/team6.jpg"
-},{
+}, {
     key: 4,
     name: "Aman Pratap Singh ",
     type: "Web Development Head",
@@ -229,7 +229,7 @@ const profile = [{
     contact_no: "+91 9993643663",
     email: "2020uce0047@iitjammu.ac.in",
     source_url: "/static/teamheads/team5.jpg"
-},  {
+}, {
     key: 2,
     name: "Ayush Sonkar",
     type: "Games and Outdoor Activities Head",
