@@ -51,10 +51,11 @@ export default function Home() {
            >
          <div className="sm:p-20 text-center sm:text-left">
            <motion.p className="text-xl sm:text-3xl text-white"> Lorem Ipsum is simply dummy .</motion.p>
-           <motion.p className="text-5xl sm:text-9xl  font-bold "> Tec<motion.span 
-            
+           <motion.p className="text-5xl sm:text-9xl  font-bold "> Tec<motion.span
+
              className="hTitle">h</motion.span>nunctus</motion.p>
            <button className="gradientButton mt-4" onClick={()=>router.push("/e")}>Check Events</button>
+           <button className="gradientButton mt-4" style={{ marginLeft: 20 + 'px' }} onClick={()=>router.push("/buy_pass")}>Buy Pass</button>
          </div>
          <div className='hidden sm:block relative'>
            <Image
@@ -68,7 +69,7 @@ export default function Home() {
          </div>
       </div>
 
-      <motion.div 
+      <motion.div
         initial="initial"
         exit="exit"
         animate={inView && "animate"}
@@ -77,7 +78,7 @@ export default function Home() {
         <div className="bg-black mx-8 sm:mx-20 rounded ">
             <div className='grid sm:grid-cols-[0.3fr,0.7fr] justify-center  items-center'>
               <div className="h-80 sm:h-full relative gradientRightBorder">
-                <Image 
+                <Image
                   src="https://images.unsplash.com/photo-1518709911915-712d5fd04677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVuZXJneXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
                   alt="About Team "
                   layout="fill"
@@ -156,7 +157,7 @@ export default function Home() {
               href="/t"
               passHref={true}
             >
-              <motion.a 
+              <motion.a
                 whileTap={{scale:0.95}}
                 className='m-1 grid place-items-center border border-[#00ffff] rounded'>
                   <p>See More...</p>
