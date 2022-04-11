@@ -54,7 +54,7 @@ const About = () => {
                 <a className="gradientButton inline-block mt-4">Team Heads</a>
               </Link>
               <Link
-                href="/t"
+                href="/h"
               >
                 <a className="gradientButton inline-block mt-4 ml-2">Gallery</a>
               </Link>

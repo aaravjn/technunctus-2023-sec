@@ -16,7 +16,8 @@ const Sponsors = () => {
                 </title>
             </Head>
             <p className='text-5xl font-bold gradientText m-4 sm:m-20 sm:mb-0 inline-block'>Sponsors</p>
-                <motion.div 
+            <p className='mb-20 text-center text-8xl font-semibold'>Coming soon</p>
+                {/* <motion.div 
                     className="mt-8">
                     <Tilt>
                         <div className="mb-20 mx-20 p-20 rounded gradientBorder bg-black grid place-items-center">
@@ -49,7 +50,7 @@ const Sponsors = () => {
                             )
                         })
                     }
-                </motion.div>
+                </motion.div> */}
         </div>
     )
 }

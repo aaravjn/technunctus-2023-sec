@@ -6,6 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LanguageIcon from '@mui/icons-material/Language';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => {
   return (
@@ -60,7 +61,7 @@ const Footer = () => {
               </li> 
               <li>
                 <Link
-                  href="/t"
+                  href="/t/night"
                   passHref={true}
                 >
                   <motion.a
@@ -69,48 +70,24 @@ const Footer = () => {
               </li>
             </ul>
             <ul>
+              <li className="m-2 italic text-sm">Developer&apos;s github profile</li>
               <li>
                 <Link
-                  href="/h"
+                  href="https://github.com/Spider8019"
                   passHref={true}
                 >
                   <motion.a
-                    className="hoverLink m-2 ">Highlights</motion.a>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/h"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">Highlights</motion.a>
+                    className="hoverLink m-2 ">spider8019</motion.a>
                 </Link>
               </li>          <li>
                 <Link
-                  href="/h"
+                  href="https://github.com/ashutoshc8101"
                   passHref={true}
                 >
                   <motion.a
-                    className="hoverLink m-2 ">Highlights</motion.a>
+                    className="hoverLink m-2 ">ashutoshc8101</motion.a>
                 </Link>
-              </li>          <li>
-                <Link
-                  href="/h"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">Highlights</motion.a>
-                </Link>
-              </li>          <li>
-                <Link
-                  href="/h"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">Highlights</motion.a>
-                </Link>
-              </li>
+              </li>       
 
             </ul>
             {/* <ul>
@@ -172,11 +149,11 @@ const Footer = () => {
           />
           <b className='mt-4 text-3xl font-bold block'>Technunctus</b>
           <b>Indian Institute of Technology, Jammu</b>
-          <p className='text-sm'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <p className='text-sm'>Jagti, NH-44 , PO Nagrota<br/>Jammu - 181 221 J&K,  India<br/>Tel.: 0191-2570381 </p>
           <ul className='grid gap-4 grid-cols-8 mt-4'>
             <li>
               <Link
-                href="/h"
+                href="https://www.iitjammu.ac.in/"
                 passHref={true}
               >
                 <motion.a
@@ -185,7 +162,16 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/h"
+                href="https://www.linkedin.com/school/iitjammu/?originalSubdomain=in"
+                passHref={true}
+              >
+                <motion.a
+                  className="hover:gradientText"><LinkedInIcon/></motion.a>
+              </Link>
+            </li>   
+            <li>
+              <Link
+                href="https://twitter.com/IITJammu?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                 passHref={true}
               >
                 <motion.a
@@ -193,7 +179,7 @@ const Footer = () => {
               </Link>
             </li>          <li>
               <Link
-                href="/h"
+                href="https://www.facebook.com/IITJammuOfficial/"
                 passHref={true}
               >
                 <motion.a
@@ -201,7 +187,7 @@ const Footer = () => {
               </Link>
             </li>          <li>
               <Link
-                href="/h"
+                href="https://www.instagram.com/technunctus/"
                 passHref={true}
               >
                 <motion.a

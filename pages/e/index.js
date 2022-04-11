@@ -21,7 +21,7 @@ const Events = () => {
             <div className='mx-8 sm:mx-20 mb-12 flex justify-end flex-wrap'>
                 <p onClick={()=>setFilter("all")} className={`${filter==="all"&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>All</p>
                 <p onClick={()=>setFilter("Coding")} className={`${filter==="Coding"&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>Coding Club</p>
-                <p onClick={()=>setFilter("aAstronomy")} className={`${filter==="Astronomy"&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>Astronomy Club</p>
+                <p onClick={()=>setFilter("Astronomy")} className={`${filter==="Astronomy"&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>Astronomy Club</p>
                 <p onClick={()=>setFilter("SAE")} className={`${filter==="SAE"&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>SAE</p>
                 <p onClick={()=>setFilter("Robo")} className={`${filter==="Robo"&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>Robosapien</p>
                 <p onClick={()=>setFilter("Finance")} className={`${filter==="Finance"&&"gradientFilterActive"} my-1 sm:my-0 gradientFilter rounded-full ml-4`}>Finance Club</p>

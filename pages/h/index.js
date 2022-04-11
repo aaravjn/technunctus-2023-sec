@@ -25,8 +25,9 @@ const Gallery = () => {
 
         <p className='text-5xl font-bold gradientText m-4 sm:m-20 sm:mb-0 inline-block'>Highlights</p>
 
+        <p className='mb-20 text-center text-8xl font-semibold'>Coming soon</p>
 
-        <motion.div 
+        {/* <motion.div 
             className="pb-12 grid place-items-center"
         >
             <motion.div  className={`${styles.galleryRow}`}
@@ -58,7 +59,7 @@ const Gallery = () => {
                     })
                 }
             </motion.div>
-        </motion.div>
+        </motion.div> */}
 
         </div>
     )

@@ -9,7 +9,7 @@ const Basic = ({children}) => {
     <div>
       <Head>
         <title>Technunctus</title>
-        <link rel="icon"  href="/static/logo.png"/>
+        <link rel="icon"  href="%PUBLIC_URL%/static/logo.png?v=2"/>
       </Head>
 
         <Navbar/>

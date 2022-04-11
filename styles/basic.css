@@ -9,11 +9,11 @@ body {
   font-family: Montserrat;
   background: #1a1a1a;
   color: white;
+  overflow-x:hidden;
 }
 
 .coverBg{
-  background:linear-gradient(transparent,#1a1a1a),url("../public/static/page.png");
-
+background:linear-gradient(transparent,#1a1a1a);
 }
 .activeLink {
   background-repeat: no-repeat;
@@ -27,7 +27,6 @@ body {
 
 .hTitle{
   position:relative;
-  transform: rotate(30deg);
   animation:glow 1s linear infinite;
   animation-fill-mode: forwards;
   animation-direction: alternate;

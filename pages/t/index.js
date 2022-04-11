@@ -17,6 +17,8 @@ const TeamHeads = () => {
             </Head>
             <p className='text-5xl font-bold gradientText m-4 sm:m-20 sm:mb-0 inline-block'>Team Heads</p>
             <motion.div className="mt-8 mb-20 grid place-items-center">
+
+                <p className='my-8'>Chairperson</p>
                 <div>
                     <motion.div 
                         initial="initial"
@@ -24,7 +26,10 @@ const TeamHeads = () => {
                         exit="exit"
                         variants={teamMembersContainer}
                         className='grid sm:grid-cols-3 gap-8 mx-8 sm:mx-20'>
-                        {teamHeadsList.map((item, index) => {
+                        <div>
+
+                        </div>
+                        {teamHeadsList.slice(0,1).map((item, index) => {
                             return (
                                 <Tilt key={item.key}>
                                     <motion.div variants={teamHead}>
@@ -34,6 +39,67 @@ const TeamHeads = () => {
                             )
                         })}
                     </motion.div>
+                    
+                </div>
+                <p className='mt-8'>Convener</p>
+                <div className='mt-8'>
+                    <motion.div 
+                        initial="initial"
+                        animate="animate"
+                        exit="exit"
+                        variants={teamMembersContainer}
+                        className='grid sm:grid-cols-3 gap-8 mx-8 sm:mx-20'>
+                        {teamHeadsList.slice(1,4).map((item, index) => {
+                            return (
+                                <Tilt key={item.key}>
+                                    <motion.div variants={teamHead}>
+                                        <Profile {...item} />
+                                    </motion.div>
+                                </Tilt>
+                            )
+                        })}
+                    </motion.div>
+                    
+                </div>
+                <p className='mt-8'>Club Coordinators</p>
+                <div className='mt-8'>
+                    <motion.div 
+                        initial="initial"
+                        animate="animate"
+                        exit="exit"
+                        variants={teamMembersContainer}
+                        className='grid sm:grid-cols-3 gap-8 mx-8 sm:mx-20'>
+                        {teamHeadsList.slice(5,10).map((item, index) => {
+                            return (
+                                <Tilt key={item.key}>
+                                    <motion.div variants={teamHead}>
+                                        <Profile {...item} />
+                                    </motion.div>
+                                </Tilt>
+                            )
+                        })}
+                    </motion.div>
+                    
+                </div>
+                <p className='mt-8'>Team Heads</p>
+                <div className='mt-8'>
+                    <motion.div 
+                        initial="initial"
+                        animate="animate"
+                        exit="exit"
+                        variants={teamMembersContainer}
+                        className='grid sm:grid-cols-3 gap-8 mx-8 sm:mx-20'>
+                        {teamHeadsList.slice(10,).map((item, index) => {
+                            return (
+                                <Tilt key={item.key}>
+                                    <motion.div variants={teamHead}>
+                                        <Profile {...item} />
+                                    </motion.div>
+                                </Tilt>
+                            )
+                        })}
+                    </motion.div>
+                    
                 </div>
             </motion.div>
         </div>
