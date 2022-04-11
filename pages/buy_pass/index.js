@@ -14,7 +14,6 @@ const BuyPass = () => {
   const [referral, setReferral] = useState('');
 
   let handleFormDataChange = (key, event) => {
-      console.log(event.target.value);
       setFormData({
           ...formData,
           [key]: event.target.value
@@ -29,17 +28,8 @@ const BuyPass = () => {
       document.body.appendChild(script)
   }, []);
 
-  useEffect(() => {
-      console.log(formData);
-  }, [formData])
-
-  useEffect(() => {
-      console.log(referral);
-  }, [referral])
-
   let submit = (e) => {
     e.preventDefault();
-    console.log('submitting')
 
     let options = {
         key: 'rzp_test_q1n5qO0HzE0Usf',
@@ -88,22 +78,22 @@ const BuyPass = () => {
         <form onSubmit={submit}>
             <div>
                 <label>Name: </label>
-                <input placeholder='Name' value={formData.name} onChange={(e) => handleFormDataChange('name', e)} required />
+                <input type="text" className="form-input bg-slate-800" placeholder='Name' value={formData.name} onChange={(e) => handleFormDataChange('name', e)} required />
             </div>
             <div>
                 <label>Email: </label>
-                <input type="email" placeholder='Email' value={formData.email} onChange={(e) => handleFormDataChange('email', e)} required />
+                <input type="email" className="form-input bg-slate-800" placeholder='Email' value={formData.email} onChange={(e) => handleFormDataChange('email', e)} required />
             </div>
             <div>
                 <label>Contact: </label>
-                <input placeholder='Contact' value={formData.contact} onChange={(e) => handleFormDataChange('contact', e)}  />
+                <input type="text" className="form-input bg-slate-800" placeholder='Contact' value={formData.contact} onChange={(e) => handleFormDataChange('contact', e)}  />
             </div>
             <div>
                 <label>Referral Code: </label>
-                <input placeholder='Refferal Code' value={referral} onChange={(e) => setReferral(e.target.value)} />
+                <input type="text" className="form-input bg-slate-800" placeholder='Refferal Code' value={referral} onChange={(e) => setReferral(e.target.value)} />
             </div>
             <div>
-                <input type="submit" value="Submit" />
+                <input type="submit" className="bg-blue-500 text-white font-bold inline-block px-5 py-2 rounded cursor-pointer" value="Submit" />
             </div>
         </form>
 
