@@ -118,7 +118,7 @@ const profile = [{
     type: "Content & Design Co-Head",
     contact_no: "+91 8303203362",
     email: "2019uch0024@iitjammu.ac.in",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+    source_url: "/static/teamheads/shubham.jpg"
 },
 {
     key: 2,
@@ -221,7 +221,7 @@ const profile = [{
     type: "Web Development Head",
     contact_no: "+91 6005285787",
     email: "2019uee0115@iitjammu.ac.in",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+    source_url: "/static/teamheads/spider.jpeg"
 }, {
     key: 4,
     name: "Rahul Raghavendra ",
