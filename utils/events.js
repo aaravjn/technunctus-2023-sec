@@ -14,7 +14,7 @@ const array = [{
     description: "Hackathons are a great way to polish your coding skills, proficiency, and team-building skills. If you thrive on such problems then, Hack tHe builD is exactly the place for you where students from all over India participate in teams to brainstorm solutions for challenging problem statements provided by us. It is the perfect platform for those who are passionate about building, designing and innovating.",
     image: "https://media.wired.com/photos/5aac56eb491c2d69af42197d/master/pass/Hackathons-RTS12CJ0.jpgg",
     value: 1,
-    reg_url: "aldskfja;ldkjf",
+    reg_url: "https://dare2compete.com/o/lUj8s71?lb=CXLTVju",
     drive_link: ""
 }, {
     key: 3,
