@@ -15,7 +15,7 @@ const array = [{
     image: "https://media.wired.com/photos/5aac56eb491c2d69af42197d/master/pass/Hackathons-RTS12CJ0.jpgg",
     value: 1,
     reg_url: "https://dare2compete.com/o/lUj8s71?lb=CXLTVju",
-    drive_link: ""
+    drive_link: "https://drive.google.com/file/d/1yzifaksQMmr14WQbJqcCux-ciCeeJKZO/view?usp=sharing"
 }, {
     key: 3,
     title: "Capture the Flag",
