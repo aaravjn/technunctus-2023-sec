@@ -56,7 +56,7 @@ export default function Home() {
           objectPosition={"bottom"}
           className="-z-10"
         />
-        <div className="sm:p-20 text-center sm:text-left">
+        <div className="sm:p-20 text-center sm:text-left z-50">
           <motion.p className="text-xl sm:text-3xl text-white"> IIT Jammu presents</motion.p>
 
           <motion.p className="text-5xl sm:text-[8vw]  font-bold hTitle"> Technunctus</motion.p>
@@ -64,8 +64,13 @@ export default function Home() {
 
           <Link  href="/e">
             <a className="gradientButton mt-4 cursor-pointer inline-block">
-            Check Events    
+            Check Events
               </a>
+          </Link>
+          <Link href="/buy_pass">
+            <a className="gradientButton mt-4 cursor-pointer inline-block ml-5">
+              Buy Pass
+            </a>
           </Link>
         </div>
         <div className='hidden sm:block relative'>
