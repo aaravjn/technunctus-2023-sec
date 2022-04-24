@@ -54,13 +54,22 @@ export default function TemporaryDrawer({ title, image, description, broughtToYo
                                     <p className="font-bold text-4xl">{title}</p>
                                     <p className=" mt-4">{description}</p>
                                     <div className="mt-4">
-                                        <button className='border border-[#00fffb] gradientButton'
+                                        {
+                                            drive_link.length!==0
+                                            &&
+                                            <button className='border border-[#00fffb] gradientButton'
                                             onClick={()=>window.open(drive_link)}
                                             style={{background:"Transparent",marginRight:"1rem"}}
                                             >Brochure</button>
-                                        <button className="gradientButton"
-                                          onClick={()=>window.open(reg_url)}
-                                        >Register on D2C</button>
+                                        }
+                                        {
+                                            reg_url.length!==14
+                                            &&
+                                            <button className="gradientButton"
+                                            onClick={()=>window.open(reg_url)}
+                                            >Register on D2C</button>
+                                        }
+
                                     </div>
                                 </div>
                             </div>
