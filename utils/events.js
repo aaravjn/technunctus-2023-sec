@@ -102,7 +102,7 @@ const array = [{
     description: "Do you have what it takes to make a perfect engineering design? CADstar is a unique one of its kind competitions where designing, analysis and simulation skills along with innovation, reasoning and logic are put to test. Carrying forward last year’s legacy, come and put your brains to work and be the CADstar 2.0!",
     image: "https://images.unsplash.com/photo-1602664876866-d3b33b77756b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
     value: 3,
-    reg_url: "aldskfja;ldkjf",
+    reg_url: "https://mstats.dare2compete.com/CL0/https:%2F%2Fdare2compete.com%2Fcompetition%2Fcad-star-20-technunctus22-283792%3Futm_campaign=site-emails%26utm_medium=d2c-automated%26utm_source=opportunity-approved/2/0109018057f8b09c-50c74ab3-69b2-4f7b-9a27-fb95892f7ed5-000000/Yxjs5l_ZTioVopnTYEEMLtQv0doLZ6B3hBEyeUxSNfY=47",
     drive_link: ""
 
 }, {
