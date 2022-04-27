@@ -23,7 +23,7 @@ const array = [{
     description: "Are you one of those fascinated by 'hacking' scenes in movies where your favorite character sneaks into the enemy's system? Do you want to see what exploiting real life vulnerabilities in systems is like? Capture the Flag (CTF) is just the right event for you. CTF is a special kind of information security competition. Start by solving simple challenges that test your knowledge and work up to real world situations where you will need a true hacker's skills to succeed!",
     image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3liZXJzZWN1cml0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
     value: 1,
-    reg_url: "aldskfja;ldkjf",
+    reg_url: "https://iitjammu.ctfd.io/",
     drive_link: ""
 }, {
     key: 8019,
