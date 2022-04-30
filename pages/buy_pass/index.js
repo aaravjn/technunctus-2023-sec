@@ -12,8 +12,8 @@ const BuyPass = () => {
     })
 
     const [referral, setReferral] = useState('');
-    const [loading,isLoading]=useState(false)
-    const [confirmed,isConfirmed]=useState(false)
+    const [loading, isLoading] = useState(false)
+    const [confirmed, isConfirmed] = useState(false)
 
     let handleFormDataChange = (key, event) => {
         setFormData({
@@ -35,14 +35,14 @@ const BuyPass = () => {
         isLoading(false)
 
         let options = {
-            key: 'rzp_live_74iVjJTVpvaLgZ',
+            key: 'rzp_live_HBGRt4XRWCPpbp',
             amount: formData.amount,
             name: formData.name,
             description: '',
             order_id: '',
             handler: (resp) => {
                 console.log(resp)
-                axios.post('https://technun.herokuapp.com/buy_pass/', {
+                axios.post('http://3.111.253.224:8080/buy_pass/', {
                     payment_id: resp.razorpay_payment_id,
                     formData,
                     referral
@@ -76,15 +76,15 @@ const BuyPass = () => {
                 loading
                 &&
                 <div className="fixed t-0 l-0 z-40 w-full h-screen grid place-items-center bg-[#0000004e]">
-                        <p className="text-white text-4xl">Loading...</p>
+                    <p className="text-white text-4xl">Loading...</p>
                 </div>
             }
             {
                 confirmed
                 &&
                 <div className="fixed t-0 l-0 z-40 w-full h-screen grid place-items-center bg-[#0000004e]">
-                        <p className="text-white text-8xl">Congrats</p>
-                        <p className="text-4xl text-white">Check your mail id for pass</p>
+                    <p className="text-white text-8xl">Congrats</p>
+                    <p className="text-4xl text-white">Check your mail id for pass</p>
                 </div>
             }
             <Head>
