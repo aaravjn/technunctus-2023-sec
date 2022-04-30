@@ -17,7 +17,7 @@ const Navbar = () => {
         <AnimatePresence>
         {
             showNav&&
-            <motion.div className="fixed z-30 h-screen w-full grid sm:grid-cols-2 shadow-3xl">
+            <motion.div className="fixed z-50 h-screen w-full grid sm:grid-cols-2 shadow-3xl">
                 <motion.div 
                     initial="initial"
                     animate="animate"

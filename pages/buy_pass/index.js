@@ -8,7 +8,7 @@ const BuyPass = () => {
         name: '',
         email: '',
         contact: '',
-        amount: 50000
+        amount: 100
     })
 
     const [referral, setReferral] = useState('');
@@ -41,7 +41,8 @@ const BuyPass = () => {
             description: '',
             order_id: '',
             handler: (resp) => {
-                axios.post('https://technun.herokuapp.com/buy_pass', {
+                console.log(resp)
+                axios.post('https://technun.herokuapp.com/buy_pass/', {
                     payment_id: resp.razorpay_payment_id,
                     formData,
                     referral
@@ -122,4 +123,4 @@ const BuyPass = () => {
     )
 }
 
-export default BuyPass
+export default BuyPass 
