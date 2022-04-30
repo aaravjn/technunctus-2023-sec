@@ -35,7 +35,7 @@ const BuyPass = () => {
         isLoading(false)
 
         let options = {
-            key: 'rzp_live_HBGRt4XRWCPpbp',
+            key: 'rzp_test_q1n5qO0HzE0Usf',
             amount: formData.amount,
             name: formData.name,
             description: '',
