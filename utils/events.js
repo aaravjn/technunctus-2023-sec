@@ -35,24 +35,13 @@ const array = [{
     reg_url: "aldskfja;ldkjf",
     drive_link: ""
 }, {
-    key: 4,
-    title: "Space Odyssey",
-    broughtToYouBy: "all Astronomy Club ",
-
-    description: "A talk show with the best in their domains! Astronomy Club brings to you an exciting opportunity to meet and interact with well-known space scientists and experts from the field of astronomy to dive deeper into the realms of the secrets of the cosmos and gain invaluable insights. ",
-    image: "https://images.unsplash.com/photo-1610296669228-602fa827fc1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c3BhY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60",
-    value: 2,
-    reg_url: "aldskfja;ldkjf",
-    drive_link: ""
-
-}, {
     key: 5,
     title: "Star Gazers",
     broughtToYouBy: "all Astronomy Club",
     description: "Gather hands on experience with the most indispensable instrument in astronomy - the telescope! A workshop will be organized in the campus along with live streaming of the entire event on the online platform.",
     image: "https://images.unsplash.com/photo-1496158866946-4c08bf8159af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHRlbGVzY29wZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
     value: 2,
-    reg_url: "aldskfja;ldkjf",
+    reg_url: "https://forms.gle/6iFgZ6Vq6QgjGgQa8",
     drive_link: ""
 
 }, {
@@ -62,7 +51,7 @@ const array = [{
     description: "Get ready to test your mettle against your fellow competitors in a unique online competition. You will be tested on innovative research papers on astronomy which will be shared with you 10 days prior. Submissions will be taken through google forms or D2C, submitted by the team leader. ",
     image: "https://images.unsplash.com/photo-1518589794402-58a93db13b83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFzdHJvbm9teXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
     value: 2,
-    reg_url: "aldskfja;ldkjf",
+    reg_url: "https://unstop.com/quiz/astrophysics-technunctus-22-indian-institute-of-technology-iit-jammu-283764",
     drive_link: ""
 
 }, {
@@ -72,7 +61,7 @@ const array = [{
     description: "Awestruck by Christopher Nolan’s Interstellar? Do sci -fi movies ignite the physicist inside you? Then this quiz based on the Sci fi movies & recent astronomical events is just for you! The quiz will be largely based on the famous movies that deal with the principles of science , physics or astronomy in general.  ",
     image: "https://images.unsplash.com/photo-1615627121117-e3278bc8b1db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
     value: 2,
-    reg_url: "aldskfja;ldkjf",
+    reg_url: "https://dare2compete.com/quiz/astronomically-smart-technunctus22-283769",
     drive_link: ""
 
 }, {

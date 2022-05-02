@@ -215,7 +215,15 @@ const profile = [{
     contact_no: "+91 08082955886",
     email: "2019uch0002@iitjammu.ac.in",
     source_url: "/static/teamheads/team6.jpg"
-}, {
+},{
+    key: 41,
+    name: "Ashutosh Chauhan ",
+    type: "Web Development Head",
+    contact_no: "+91 9816092935",
+    email: "2020uee0132@iitjammu.ac.in",
+    source_url: "/static/teamheads/ashu.jpg"
+}, 
+{
     key: 4,
     name: "Aman Pratap Singh ",
     type: "Web Development Head",

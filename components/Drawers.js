@@ -67,7 +67,7 @@ export default function TemporaryDrawer({ title, image, description, broughtToYo
                                             &&
                                             <button className="gradientButton"
                                             onClick={()=>window.open(reg_url)}
-                                            >Register on D2C</button>
+                                            >Register</button>
                                         }
 
                                     </div>

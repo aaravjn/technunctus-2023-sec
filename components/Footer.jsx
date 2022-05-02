@@ -13,84 +13,111 @@ const Footer = () => {
     <div className="bg-black">
       <div className="p-8 sm:p-20 grid grid-cols-1 sm:grid-cols-[0.75fr,0.25fr]">
         <div className="grid grid-cols-2 sm:grid-cols-3">
-            <ul>
-              <li>
-                <Link
-                  href="/"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">Home</motion.a>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/a"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">About Us</motion.a>
-                </Link>
-              </li>                   
-              <li>
-                <Link
-                  href="/e"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">Events</motion.a>
-                </Link>
-              </li>          
-              <li>
-                <Link
-                  href="/s"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">Sponsors</motion.a>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/h"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">Highlights</motion.a>
-                </Link>
-              </li> 
-              <li>
-                <Link
-                  href="/t/night"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">TechNights</motion.a>
-                </Link>
-              </li>
-            </ul>
-            <ul>
-              <li className="m-2 italic text-sm">Developer&apos;s github profile</li>
-              <li>
-                <Link
-                  href="https://github.com/Spider8019"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">spider8019</motion.a>
-                </Link>
-              </li>          <li>
-                <Link
-                  href="https://github.com/ashutoshc8101"
-                  passHref={true}
-                >
-                  <motion.a
-                    className="hoverLink m-2 ">ashutoshc8101</motion.a>
-                </Link>
-              </li>       
+          <ul>
+            <li>
+              <Link
+                href="/"
+                passHref={true}
+              >
+                <motion.a
+                  className="hoverLink m-2 ">Home</motion.a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/a"
+                passHref={true}
+              >
+                <motion.a
+                  className="hoverLink m-2 ">About Us</motion.a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/e"
+                passHref={true}
+              >
+                <motion.a
+                  className="hoverLink m-2 ">Events</motion.a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/s"
+                passHref={true}
+              >
+                <motion.a
+                  className="hoverLink m-2 ">Sponsors</motion.a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/h"
+                passHref={true}
+              >
+                <motion.a
+                  className="hoverLink m-2 ">Highlights</motion.a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/t/night"
+                passHref={true}
+              >
+                <motion.a
+                  className="hoverLink m-2 ">TechNights</motion.a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/policy"
+                passHref={true}
+              >
+                <motion.a
+                  className="hoverLink m-2 ">Privacy Policy</motion.a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/terms"
+                passHref={true}
+              >
+                <motion.a
+                  className="hoverLink m-2 ">Terms and Conditions</motion.a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/cancellation"
+                passHref={true}
+              >
+                <motion.a
+                  className="hoverLink m-2 ">Cancellation policy</motion.a>
+              </Link>
+            </li>
+          </ul>
+          <ul>
+            <li className="m-2 italic text-sm">Developer&apos;s github profile</li>
+            <li>
+              <Link
+                href="https://github.com/Spider8019"
+                passHref={true}
+              >
+                <motion.a
+                  className="hoverLink m-2 ">spider8019</motion.a>
+              </Link>
+            </li>          <li>
+              <Link
+                href="https://github.com/ashutoshc8101"
+                passHref={true}
+              >
+                <motion.a
+                  className="hoverLink m-2 ">ashutoshc8101</motion.a>
+              </Link>
+            </li>
 
-            </ul>
-            {/* <ul>
+          </ul>
+          {/* <ul>
               <li>
                 <Link
                   href="/h"
@@ -149,7 +176,7 @@ const Footer = () => {
           />
           <b className='mt-4 text-3xl font-bold block'>Technunctus</b>
           <b>Indian Institute of Technology, Jammu</b>
-          <p className='text-sm'>Jagti, NH-44 , PO Nagrota<br/>Jammu - 181 221 J&K,  India<br/>Tel.: 0191-2570381 </p>
+          <p className='text-sm'>Jagti, NH-44 , PO Nagrota<br />Jammu - 181 221 J&K,  India<br />Tel.: 0191-2570381 </p>
           <ul className='grid gap-4 grid-cols-8 mt-4'>
             <li>
               <Link
@@ -157,7 +184,7 @@ const Footer = () => {
                 passHref={true}
               >
                 <motion.a
-                  className="hover:gradientText"><LanguageIcon/></motion.a>
+                  className="hover:gradientText"><LanguageIcon /></motion.a>
               </Link>
             </li>
             <li>
@@ -166,16 +193,16 @@ const Footer = () => {
                 passHref={true}
               >
                 <motion.a
-                  className="hover:gradientText"><LinkedInIcon/></motion.a>
+                  className="hover:gradientText"><LinkedInIcon /></motion.a>
               </Link>
-            </li>   
+            </li>
             <li>
               <Link
                 href="https://twitter.com/IITJammu?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                 passHref={true}
               >
                 <motion.a
-                  className="hover:gradientText"><TwitterIcon/></motion.a>
+                  className="hover:gradientText"><TwitterIcon /></motion.a>
               </Link>
             </li>          <li>
               <Link
@@ -183,7 +210,7 @@ const Footer = () => {
                 passHref={true}
               >
                 <motion.a
-                  className="hover:gradientText"><FacebookIcon/></motion.a>
+                  className="hover:gradientText"><FacebookIcon /></motion.a>
               </Link>
             </li>          <li>
               <Link
@@ -191,9 +218,9 @@ const Footer = () => {
                 passHref={true}
               >
                 <motion.a
-                  className="hover:gradientText"><InstagramIcon/></motion.a>
+                  className="hover:gradientText"><InstagramIcon /></motion.a>
               </Link>
-            </li>          
+            </li>
           </ul>
         </div>
       </div>
