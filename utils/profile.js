@@ -60,7 +60,7 @@ const profile = [{
     type: "Astronomy Club Head",
     contact_no: "+91 7302858863",
     email: "2020umt0173@iitjammu.ac.in",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+    source_url: "/static/teamheads/palak.jpg"
 }, {
     key: 2005,
     name: "Soubhav",
