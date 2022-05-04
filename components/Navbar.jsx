@@ -7,6 +7,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { motion, AnimatePresence } from 'framer-motion';
 import { navbarLeft,navbarRight,navbarLinksContainer,navbarLink } from '../utils/framer';
 import { useRouter } from 'next/router';
+import Glitch from "./Glitch"
 
 const Navbar = () => {
 
@@ -26,8 +27,9 @@ const Navbar = () => {
                     className='hidden sm:block relative gradientRightBorder'
                     >
                         <Image 
-                        src="https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWJzdHJhY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
+                        src="https://images.unsplash.com/photo-1579567761406-4684ee0c75b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                         alt="Navbar Cover"
+                        objectFit='cover'
                         layout="fill"
                         />
                 </motion.div>
@@ -53,7 +55,7 @@ const Navbar = () => {
                             >
                                 <motion.a 
                                     onClick={()=>setShowNav(false)}
-                                    variants={navbarLink} className={`${router.asPath==="/"?"activeLink":"hoverLink"}  m-2 text-4xl`}>Home</motion.a>                       
+                                    variants={navbarLink} className={`${router.asPath==="/"?"activeLink":"hoverLink"}  m-2 text-4xl`} style={{width:"fit-content"}}>Home</motion.a>                       
                             </Link>
                             <Link
                             href="/a"
@@ -61,7 +63,7 @@ const Navbar = () => {
                             >
                                 <motion.a 
                                     onClick={()=>setShowNav(false)}
-                                    variants={navbarLink} className={`${router.asPath==="/a"?"activeLink":"hoverLink"}  m-2 text-4xl`}>About Us</motion.a>                       
+                                    variants={navbarLink} className={`${router.asPath==="/a"?"activeLink":"hoverLink"}  m-2 text-4xl`} style={{width:"fit-content"}}>About Us</motion.a>                       
                             </Link>
                             <Link
                             href="/e"
@@ -69,7 +71,7 @@ const Navbar = () => {
                             >
                                 <motion.a 
                                     onClick={()=>setShowNav(false)}
-                                variants={navbarLink} className={`${router.asPath==="/e"?"activeLink":"hoverLink"}  m-2 text-4xl`}>Events</motion.a>                       
+                                variants={navbarLink} className={`${router.asPath==="/e"?"activeLink":"hoverLink"}  m-2 text-4xl`} style={{width:"fit-content"}}>Events</motion.a>                       
                             </Link>
                             <Link
                             href="/s"
@@ -77,7 +79,7 @@ const Navbar = () => {
                             >
                                 <motion.a 
                                     onClick={()=>setShowNav(false)}
-                                    variants={navbarLink} className={`${router.asPath==="/s"?"activeLink":"hoverLink"}  m-2 text-4xl`}>Sponsors</motion.a>                       
+                                    variants={navbarLink} className={`${router.asPath==="/s"?"activeLink":"hoverLink"}  m-2 text-4xl`} style={{width:"fit-content"}}>Sponsors</motion.a>                       
                             </Link>
                             <Link
                             href="/h"
@@ -85,7 +87,7 @@ const Navbar = () => {
                             >
                                 <motion.a 
                                     onClick={()=>setShowNav(false)}
-                                    variants={navbarLink} className={`${router.asPath==="/h"?"activeLink":"hoverLink"}  m-2 text-4xl`}>Highlights</motion.a>                       
+                                    variants={navbarLink} className={`${router.asPath==="/h"?"activeLink":"hoverLink"}  m-2 text-4xl`} style={{width:"fit-content"}}>Highlights</motion.a>                       
                             </Link>
                         </motion.div>
                     </div>

@@ -46,7 +46,7 @@ const array = [{
     key: 5,
     title: "Star Gazers",
     broughtToYouBy: "all Astronomy Club",
-    description: "Gather hands on experience with the most indispensable instrument in astronomy - the telescope! A workshop will be organized in the campus along with live streaming of the entire event on the online platform.",
+    description: "Gather experience with the most indispensable instrument in astronomy - the telescope! A workshop will be organized in the campus along with live streaming of the entire event on the online platform.",
     image: "https://images.unsplash.com/photo-1496158866946-4c08bf8159af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHRlbGVzY29wZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
     value: 2,
     reg_close: false,
@@ -62,7 +62,7 @@ const array = [{
     value: 2,
     reg_close: false,
     reg_url: "https://unstop.com/quiz/astrophysics-technunctus-22-indian-institute-of-technology-iit-jammu-283764",
-    drive_link: ""
+    drive_link: "https://drive.google.com/file/d/18Z5QJPVp7_TtbAYZwQX6ckIUerrmdAYl/view?usp=sharing"
 
 }, {
     key: 7,
@@ -84,7 +84,7 @@ const array = [{
     value: 3,
     reg_close: false,
     reg_url: "https://docs.google.com/forms/d/e/1FAIpQLSf0ydSB0hz0SlDS-ad8CuLn5CQQTf8Ff-vSfNjltfz6lskv1Q/viewform?vc=0&c=0&w=1&flr=0",
-    drive_link: ""
+    drive_link: "https://drive.google.com/file/d/1vxmFaf6DRxik36zeBh9OmHLiaNrlKLGy/view?usp=sharing"
 
 }, {
     key: 9,
@@ -106,7 +106,7 @@ const array = [{
     value: 3,
     reg_close: false,
     reg_url: "https://mstats.dare2compete.com/CL0/https:%2F%2Fdare2compete.com%2Fcompetition%2Fcad-star-20-technunctus22-283792%3Futm_campaign=site-emails%26utm_medium=d2c-automated%26utm_source=opportunity-approved/2/0109018057f8b09c-50c74ab3-69b2-4f7b-9a27-fb95892f7ed5-000000/Yxjs5l_ZTioVopnTYEEMLtQv0doLZ6B3hBEyeUxSNfY=47",
-    drive_link: ""
+    drive_link: "https://drive.google.com/file/d/127HV41HNwU7LozhJNcGSRengFNjJVtvn/view?usp=sharing"
 
 }, {
     key: 11,
@@ -117,7 +117,7 @@ const array = [{
     value: 3,
     reg_close: false,
     reg_url: "https://dare2compete.com/quiz/tr-sae-ure-technunctus22-indian-institute-of-technology-iit-jammu-283268?lb=06uLJhe",
-    drive_link: ""
+    drive_link: "https://drive.google.com/file/d/14BMMHk72gPyxfEpz-OvdaCKAUqhTd24K/view"
 
 }, {
     key: 12,
@@ -159,7 +159,7 @@ const array = [{
     image: "https://images.unsplash.com/photo-1638913662380-9799def8ffb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MjN8fGZpbmFuY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60",
     value: 5,
     reg_url: "https://unstop.com/competition/amnesia-technunctus-22-indian-institute-of-technology-iit-jammu-287676",
-    drive_link: "",
+    drive_link: "https://drive.google.com/file/d/1Wo43ds0BhcFDqWx8kzhqDg7--ltC0uFg/view?usp=sharing",
     reg_close: true
 }]
 

@@ -103,6 +103,8 @@ export default function Home() {
               />
             </div>
             <div className="p-4 sm:p-12">
+            <p className='text-xl italic'>Theme</p>
+
               <p className='text-3xl mb-8'>Flamboyant Futuranium</p>
               <p className='text-sm sm:text'>Traversing through the cosmic millennium, we stumble across a distant planet exuding a glitzy vibe. Its tantalizing aura beckons you to surrender yourself to its enticement. Before you lies a symphony of the celestials; Multitudes of watchful eyes throughout the years behold before themselves alongside, the essence of light and color thronging through the air; The brilliance around tempts you to come closer, to drench yourself in its warm embrace.Being drawn towards its ethos is nigh inevitable. So come ushering into this lavish ambience of flamboyance & synergy and immerse yourself within the realms of the future to experience technology like never before.</p>
               {/* <Link
@@ -153,13 +155,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className="container">
-            <p className="glitch">
-              <span aria-hidden="true">Let&apos;s do it</span>
-              Let&apos;s do it
-              <span aria-hidden="true">Let&apos;s do it</span>
-            </p>
-      </div> */}
+
             <motion.div
         initial="initial"
         exit="exit"
