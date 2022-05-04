@@ -74,6 +74,14 @@ const Navbar = () => {
                                 variants={navbarLink} className={`${router.asPath==="/e"?"activeLink":"hoverLink"}  m-2 text-4xl`} style={{width:"fit-content"}}>Events</motion.a>                       
                             </Link>
                             <Link
+                            href="/t/night"
+                            passHref={true}
+                            >
+                                <motion.a 
+                                    onClick={()=>setShowNav(false)}
+                                    variants={navbarLink} className={`${router.asPath==="/h"?"activeLink":"hoverLink"}  m-2 text-4xl`} style={{width:"fit-content"}}>Tech Nights</motion.a>                       
+                            </Link>
+                            <Link
                             href="/s"
                             passHref={true}
                             >

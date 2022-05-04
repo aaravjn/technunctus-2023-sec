@@ -36,7 +36,7 @@ const Night = () => {
               variants={negxSlide}
 
               className="absolute text-right top-0 right-0 z-40 p-4">
-              <p>the random text the random text<br /> the random text<br />the rnadom text the random </p>
+              <p> <b>Date : </b>7<sup>th</sup> May <br/><b>Venue : </b>College Ground</p>
               <Link href="/buy_pass" passHref={true}>
                 <motion.a
                   className="inline-block gradientButton mt-2 font-semibold font-white">Get Pass</motion.a>
@@ -56,7 +56,7 @@ const Night = () => {
                 initial="initial"
                 animate="animate"
                 variants={xSlide}
-                className="text-8xl font-semibold font-white">BDM</motion.p>
+                className="text-8xl font-semibold font-white">BDM <span className='text-6xl'>(Bollywood Dance Music)</span></motion.p>
             </div>
             <motion.div
               initial="initial"
@@ -64,7 +64,7 @@ const Night = () => {
               variants={negxSlide}
 
               className="absolute text-right top-0 right-0 z-40 p-4">
-              <p>the random text the random text<br /> the random text<br />the rnadom text the random </p>
+              <p><b>Date : </b>8<sup>th</sup> May <br/> <b>Venue : </b>College Ground</p>
               <Link href="/buy_pass" passHref={true}>
                 <motion.a
                   className="inline-block gradientButton mt-2 font-semibold font-white">Get Pass</motion.a>
