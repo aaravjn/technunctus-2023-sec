@@ -86,34 +86,36 @@ export default function Home() {
       </div>
 
       <motion.div
-        initial="initial"
-        exit="exit"
-        animate={inView && "animate"}
-        variants={teamHead}
+        // initial="initial"
+        // exit="exit"
+        // animate={inView && "animate"}
+        // variants={teamHead}
         style={{height:"80vh"}}
         ref={aboutContainer} className="mb-12 sm:mb-0 grid place-items-center">
         <div className="bg-black mx-8 sm:mx-20 rounded ">
           <div className='grid sm:grid-cols-[0.3fr,0.7fr] justify-center  items-center'>
             <div className="h-80 sm:h-full relative gradientRightBorder">
               <Image
-                src="https://images.unsplash.com/photo-1518709911915-712d5fd04677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVuZXJneXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
+                src="https://images.unsplash.com/photo-1637166185518-058f5896a2e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZ1dHVyaXN0aWN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
                 alt="About Team "
                 layout="fill"
                 objectFit="cover"
               />
             </div>
             <div className="p-4 sm:p-12">
-              <p className='text-3xl mb-8'>Word From Team</p>
-              <p className='text-sm sm:text'>Technunctus’22 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.</p>
-              <Link
+              <p className='text-3xl mb-8'>Flamboyant Futuranium</p>
+              <p className='text-sm sm:text'>Traversing through the cosmic millennium, we stumble across a distant planet exuding a glitzy vibe. Its tantalizing aura beckons you to surrender yourself to its enticement. Before you lies a symphony of the celestials; Multitudes of watchful eyes throughout the years behold before themselves alongside, the essence of light and color thronging through the air; The brilliance around tempts you to come closer, to drench yourself in its warm embrace.Being drawn towards its ethos is nigh inevitable. So come ushering into this lavish ambience of flamboyance & synergy and immerse yourself within the realms of the future to experience technology like never before.</p>
+              {/* <Link
                 href="/a"
               >
                 <a className="gradientButton inline-block mt-4">Read More</a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
       </motion.div>
+
+
 
 
       {/* <div ref={titleSponsorRef} onMouseMove={(e)=>{exactLocation(e)}} className="pt-20 sm:pt-40 overflow-hidden pb-20 grid place-items-center relative">
@@ -158,6 +160,34 @@ export default function Home() {
               <span aria-hidden="true">Let&apos;s do it</span>
             </p>
       </div> */}
+            <motion.div
+        initial="initial"
+        exit="exit"
+        animate={inView && "animate"}
+        variants={teamHead}
+        ref={aboutContainer} className="mt-40 mb-12 sm:mb-0 grid place-items-center">
+        <div className="bg-black mx-8 sm:mx-20 rounded ">
+          <div className='grid sm:grid-cols-[0.3fr,0.7fr] justify-center  items-center'>
+            <div className="h-80 sm:h-full relative gradientRightBorder">
+              <Image
+                src="https://images.unsplash.com/photo-1518709911915-712d5fd04677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVuZXJneXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
+                alt="About Team "
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
+            <div className="p-4 sm:p-12">
+              <p className='text-3xl mb-8'>Word From Team</p>
+              <p className='text-sm sm:text'>Technunctus’22 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.</p>
+              <Link
+                href="/a"
+              >
+                <a className="gradientButton inline-block mt-4">Read More</a>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </motion.div>
 
       <motion.div className="sm:h-screen grid place-items-center">
         <div>
@@ -183,6 +213,7 @@ export default function Home() {
           </div>
         </div>
       </motion.div>
+
 
 
     </div>

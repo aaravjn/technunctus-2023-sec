@@ -122,3 +122,26 @@ export const teamHead={
         opacity:0
     }
 }
+
+export const xSlide={
+    initial:{
+        x:"-100px",
+        opacity:0,
+    },
+    animate:{
+        x:0,
+        opacity:1,
+        transition:{duration:1}
+    }
+}
+export const negxSlide={
+    initial:{
+        x:"100px",
+        opacity:0,
+    },
+    animate:{
+        x:0,
+        opacity:1,
+        transition:{duration:0.5}
+    }
+}

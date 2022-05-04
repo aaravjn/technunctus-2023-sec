@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { card } from '../utils/framer'
 import Drawers from "../components/Drawers"
 
-const Card = ({title,image,description,broughtToYouBy="****",aspectRatioImage=1,buttonText="More",reg_url,drive_link}) => {
+const Card = ({title,image,reg_close,description,broughtToYouBy="****",aspectRatioImage=1,buttonText="More",reg_url,drive_link}) => {
   return (
     <motion.div 
       initial="initial"
@@ -36,6 +36,7 @@ const Card = ({title,image,description,broughtToYouBy="****",aspectRatioImage=1,
               buttonText={buttonText}
               reg_url={reg_url}
               drive_link={drive_link}
+              reg_close={reg_close}
             />
             {/* <button className='gradientButton'>{buttonText}</button> */}
         </div>

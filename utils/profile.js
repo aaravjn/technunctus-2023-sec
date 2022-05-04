@@ -18,7 +18,7 @@ const profile = [{
     type: "Convener",
     contact_no: "+91 9654458060",
     email: "2019ume0200@iitjammu.ac.in",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+    source_url: "/static/teamheads/vansh.jpeg"
 }, {
     key: 1003,
     name: "Priyanshu Kumar",
@@ -67,8 +67,9 @@ const profile = [{
     type: "Finance And Analytic Club Head",
     contact_no: "+91 9419254929",
     email: "2019umt0172@iitjammu.ac.in",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
-}, {
+    source_url: "/static/teamheads/soubhav.jpeg"
+},
+{
     key: 3001,
     name: "Nishita Phillip",
     type: "Event Management Head",
@@ -91,18 +92,11 @@ const profile = [{
     source_url: "/static/teamheads/team19.jpg"
 }, {
     key: 1,
-    name: "Bharati Padhy",
+    name: "Prabhnoor Singh",
     type: "Sponsorship Head",
-    contact_no: "+91 8983694292",
-    email: "2020pcs1009@iitjammu.ac.in",
+    contact_no: "+91 7814360737",
+    email: "2021ume0219@iitjammu.ac.in",
     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
-}, {
-    key: 4,
-    name: "Siddhartha Joshi",
-    type: "Sponsorship Head",
-    contact_no: "+91 9521587463",
-    email: "2020umt0165@iitjammu.ac.in",
-    source_url: "/static/teamheads/team16.jpg"
 },
 {
     key: 4,
@@ -156,6 +150,13 @@ const profile = [{
     type: "Infrastructure Head ",
     contact_no: "+91 9455040521",
     email: "2020uce0071@iitjammu.ac.in",
+    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+}, {
+    key: 31,
+    name: "Yuvraj Chugh",
+    type: "Infrastructure Head",
+    contact_no: "+91 9680018707",
+    email: "2020ume0199@iitjammu.ac.in",
     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
 }, {
     key: 3,
@@ -215,14 +216,14 @@ const profile = [{
     contact_no: "+91 08082955886",
     email: "2019uch0002@iitjammu.ac.in",
     source_url: "/static/teamheads/team6.jpg"
-},{
+}, {
     key: 41,
     name: "Ashutosh Chauhan ",
     type: "Web Development Head",
     contact_no: "+91 9816092935",
     email: "2020uee0132@iitjammu.ac.in",
     source_url: "/static/teamheads/ashu.jpg"
-}, 
+},
 {
     key: 4,
     name: "Aman Pratap Singh ",
@@ -230,13 +231,6 @@ const profile = [{
     contact_no: "+91 6005285787",
     email: "2019uee0115@iitjammu.ac.in",
     source_url: "/static/teamheads/spider.jpeg"
-}, {
-    key: 4,
-    name: "Rahul Raghavendra ",
-    type: "Web Development Head",
-    contact_no: "+91 9993643663",
-    email: "2020uce0047@iitjammu.ac.in",
-    source_url: "/static/teamheads/team5.jpg"
 }, {
     key: 2,
     name: "Ayush Sonkar",
