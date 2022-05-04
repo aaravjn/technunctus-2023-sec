@@ -5,7 +5,7 @@ const array = [{
     description: "Algorithms dictate pretty much every aspect of our lives today. Are you amazed by the ocean of Data Structures and Algorithms and want to delve deeper? We got your back with Technunctus Programming Contest (TPC). Form at most 3 member team and solve some of the most unique and innovative problems encompassing a wide array of programming techniques.",
     image: "https://images.unsplash.com/photo-1580894742597-87bc8789db3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     value: 1,
-    reg_url: "aldskfja;ldkjf",
+    reg_url: "https://unstop.com/hackathon/technunctus-programming-contest-technunctus-22-284981?lb=CXLTVju",
     drive_link: ""
 }, {
     key: 2,
@@ -61,7 +61,7 @@ const array = [{
     description: "Awestruck by Christopher Nolan’s Interstellar? Do sci -fi movies ignite the physicist inside you? Then this quiz based on the Sci fi movies & recent astronomical events is just for you! The quiz will be largely based on the famous movies that deal with the principles of science , physics or astronomy in general.  ",
     image: "https://images.unsplash.com/photo-1615627121117-e3278bc8b1db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
     value: 2,
-    reg_url: "https://dare2compete.com/quiz/astronomically-smart-technunctus22-283769",
+    reg_url: "https://unstop.com/quiz/astronomically-smart-technunctus-22-indian-institute-of-technology-iit-jammu-283769",
     drive_link: ""
 
 }, {
@@ -81,7 +81,7 @@ const array = [{
     description: "This talk presents new opportunities for exploration and production activities pertaining to UAVs (unmanned aerial vehicles), that can be remotely operated or autonomously driven. It shall provide an exceptional opportunity for specialists and enthusiasts to share insights on the evolving technology, exciting applications and emerging technical and regulatory challenges. Students will be made familiar with a wide range of topics related to resource exploration and production, environmental monitoring and engineering.",
     image: "https://images.unsplash.com/photo-1508614589041-895b88991e3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRyb25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
     value: 3,
-    reg_url: "aldskfja;ldkjf",
+    reg_url: "https://unstop.com/workshop/uav-4-u-technunctus-22-indian-institute-of-technology-iit-jammu-286319",
     drive_link: ""
 
 }, {
@@ -101,7 +101,7 @@ const array = [{
     description: "Well, this tr-SAE-ure is not the one from the movie ‘Treasure Island’, but rather a bit tricky. This, as the name suggests, is indeed a hunt to unravel the logical minds out there testing on their acumen on automotives as the various levels unfold ! A quiz competition on automobiles and moulded as a treasure hunt to test the logical and thinking ability of the participants. It will have two rounds.",
     image: "https://images.unsplash.com/photo-1581092335397-9583eb92d232?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lY2hhbmljYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60",
     value: 3,
-    reg_url: "aldskfja;ldkjf",
+    reg_url: "https://dare2compete.com/quiz/tr-sae-ure-technunctus22-indian-institute-of-technology-iit-jammu-283268?lb=06uLJhe",
     drive_link: ""
 
 }, {
