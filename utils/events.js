@@ -23,7 +23,7 @@ const array = [{
     description: "Are you one of those fascinated by 'hacking' scenes in movies where your favorite character sneaks into the enemy's system? Do you want to see what exploiting real life vulnerabilities in systems is like? Capture the Flag (CTF) is just the right event for you. CTF is a special kind of information security competition. Start by solving simple challenges that test your knowledge and work up to real world situations where you will need a true hacker's skills to succeed!",
     image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3liZXJzZWN1cml0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
     value: 1,
-    reg_url: "https://iitjammu.ctfd.io/",
+    reg_url: "https://unstop.com/p/cyber-premier-league-a-ctf-event-technunctus-22-indian-institute-of-technology-iit-jammu-285460?lb=4XYOfyW",
     drive_link: ""
 }, {
     key: 8019,
@@ -140,7 +140,7 @@ const array = [{
     description: "Rack your brain in this thrilling competition to see who prevails as the master of finance! This event provides the students a chance to compete with other students across the nation and put their financial knowledge to test. It’ll be a three stage competition comprising of a quiz, case studies and last but not the least a JAM (Just a minute). So, come unleash and tickle your knowledge in this exhilarating Finance-mania.",
     image: "https://images.unsplash.com/photo-1638913662380-9799def8ffb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MjN8fGZpbmFuY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60",
     value: 5,
-    reg_url: "aldskfja;ldkjf",
+    reg_url: "https://unstop.com/competition/amnesia-technunctus-22-indian-institute-of-technology-iit-jammu-287676",
     drive_link: ""
 }]
 
