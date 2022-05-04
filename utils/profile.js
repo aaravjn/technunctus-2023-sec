@@ -170,7 +170,7 @@ const profile = [{
     type: "PR and Outreach Head",
     contact_no: "+91 9644055055",
     email: "2019umt0170@iitjammu.ac.in",
-    source_url: "/static/teamheads/rehman.jpg"
+    source_url: "/static/teamheads/rehman.JPG"
 },
 {
     key: 4,
