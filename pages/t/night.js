@@ -2,7 +2,7 @@ import React from 'react'
 import Head from "next/head"
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { xSlide,negxSlide } from '../../utils/framer'
+import { xSlide, negxSlide } from '../../utils/framer'
 import Link from 'next/link'
 
 const Night = () => {
@@ -36,10 +36,10 @@ const Night = () => {
               variants={negxSlide}
 
               className="absolute text-right top-0 right-0 z-40 p-4">
-              <p> <b>Date : </b>7<sup>th</sup> May <br/><b>Venue : </b>College Ground</p>
-              <Link href="/buy_pass" passHref={true}>
+              <p> <b>Date : </b>7<sup>th</sup> May <br /><b>Venue : </b>College Ground</p>
+              <Link href="tel:6388115067" passHref={true}>
                 <motion.a
-                  className="inline-block gradientButton mt-2 font-semibold font-white">Get Pass</motion.a>
+                  className="inline-block gradientButton mt-2 font-semibold font-white">For Pass Contact <br /> +91 6388115067</motion.a>
               </Link>
             </motion.div>
           </div>
@@ -64,10 +64,10 @@ const Night = () => {
               variants={negxSlide}
 
               className="absolute text-right top-0 right-0 z-40 p-4">
-              <p><b>Date : </b>8<sup>th</sup> May <br/> <b>Venue : </b>College Ground</p>
-              <Link href="/buy_pass" passHref={true}>
+              <p><b>Date : </b>8<sup>th</sup> May <br /> <b>Venue : </b>College Ground</p>
+              <Link href="tel:6388115067" passHref={true}>
                 <motion.a
-                  className="inline-block gradientButton mt-2 font-semibold font-white">Get Pass</motion.a>
+                  className="inline-block gradientButton mt-2 font-semibold font-white">For Pass Contact <br /> +91 6388115067</motion.a>
               </Link>
             </motion.div>
           </div>
