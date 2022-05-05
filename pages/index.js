@@ -67,11 +67,11 @@ export default function Home() {
             Check Events
               </a>
           </Link>
-          <Link href="/buy_pass">
+          {/* <Link href="/buy_pass">
             <a className="gradientButton mt-4 cursor-pointer inline-block ml-5">
               Buy Pass
             </a>
-          </Link>
+          </Link> */}
         </div>
         <div className='hidden sm:block relative'>
           <Image

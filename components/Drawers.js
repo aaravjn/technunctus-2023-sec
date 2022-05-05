@@ -28,7 +28,6 @@ export default function TemporaryDrawer({ title, reg_close, image, description, 
                         onClose={toggleDrawer(anchor, false)}
                         style={{ width: "30rem" }}
                     >
-                        {console.log(reg_close, typeof (reg_close))}
                         <Box
                             sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 550 }}
                             role="presentation"

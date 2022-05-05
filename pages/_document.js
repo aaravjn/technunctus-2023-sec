@@ -5,7 +5,7 @@ export default function Document() {
         <Html>
             <Head>
                 <link rel="shortcut icon" href="/static/logo.png?v=2" />
-                <meta charset="UTF-8" />
+                <meta charSet="UTF-8" />
                 <meta name="description" content="The IIT Jammu family takes immense pleasure in inviting you all to the third edition of our Annual Tech Fest, Technunctus’21, which is scheduled from 17th-18th April 2021 in complete Online Mode" />
                 <meta name="keywords" content="TECHFEST, spider8019, IIT JAMMU, TECHNUNCTUS" />
             </Head>
