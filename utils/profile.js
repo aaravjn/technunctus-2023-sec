@@ -46,7 +46,7 @@ const profile = [{
     type: "SAE Head",
     contact_no: "+91 9906293894",
     email: "2019ume0189@iitjammu.ac.in",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+    source_url: "/static/teamheads/amol.jpeg"
 }, {
     key: 2003,
     name: "Ankit Hooda",
@@ -194,7 +194,7 @@ const profile = [{
     type: "Hospitality Head",
     contact_no: "+91 9687650654",
     email: "2019ume0212@iitjammu.ac.in",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+    source_url: "/static/teamheads/prat.jpg"
 }, {
     key: 3,
     name: "Divya ",

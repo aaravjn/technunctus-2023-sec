@@ -13,6 +13,7 @@ import eventHeads from "../utils/profile"
 import Tilt from "react-parallax-tilt"
 import { teamHead } from "../utils/framer"
 import { useRouter } from "next/router"
+import {isMobile} from "react-device-detect"
 
 export default function Home() {
 
@@ -90,7 +91,7 @@ export default function Home() {
         // exit="exit"
         // animate={inView && "animate"}
         // variants={teamHead}
-        style={{height:"80vh"}}
+        style={{height:isMobile?"auto":"80vh"}}
         ref={aboutContainer} className="mb-12 sm:mb-0 grid place-items-center">
         <div className="bg-black mx-8 sm:mx-20 rounded ">
           <div className='grid sm:grid-cols-[0.3fr,0.7fr] justify-center  items-center'>
