@@ -13,7 +13,7 @@ import eventHeads from "../utils/profile"
 import Tilt from "react-parallax-tilt"
 import { teamHead } from "../utils/framer"
 import { useRouter } from "next/router"
-import {isMobile} from "react-device-detect"
+import { isMobile } from "react-device-detect"
 
 export default function Home() {
 
@@ -29,6 +29,9 @@ export default function Home() {
   const transform3 = useTransform(scrollY, [1400, 1800], [0.2, 1]);
   const transform4 = useTransform(scrollY, [1000, 1400], [0.2, 1]);
 
+  const setMark = () => {
+
+  }
   const exactLocation = (e) => {
     console.log(e.pageX, e.pageY, cursorRef.current)
     let bounds = titleSponsorRef.current.getBoundingClientRect();
@@ -63,10 +66,10 @@ export default function Home() {
           <motion.p className="text-5xl sm:text-[8vw]  font-bold hTitle"> Technunctus</motion.p>
           <motion.p className="text-xl sm:text-3xl text-white"> 2022</motion.p>
 
-          <Link  href="/e">
+          <Link href="/e">
             <a className="gradientButton mt-4 cursor-pointer inline-block">
-            Check Events
-              </a>
+              Check Events
+            </a>
           </Link>
           {/* <Link href="/buy_pass">
             <a className="gradientButton mt-4 cursor-pointer inline-block ml-5">
@@ -86,13 +89,15 @@ export default function Home() {
         </div>
       </div>
 
+
       <motion.div
         // initial="initial"
         // exit="exit"
         // animate={inView && "animate"}
         // variants={teamHead}
-        style={{height:isMobile?"auto":"80vh"}}
-        ref={aboutContainer} className="mb-12 sm:mb-0 grid place-items-center">
+        // style={{ height: isMobile ? "auto" : "80vh" }}
+
+        ref={aboutContainer} className="sm:h-[80vh] mb-12 sm:mb-0 grid place-items-center">
         <div className="bg-black mx-8 sm:mx-20 rounded ">
           <div className='grid sm:grid-cols-[0.3fr,0.7fr] justify-center  items-center'>
             <div className="h-80 sm:h-full relative gradientRightBorder">
@@ -104,7 +109,7 @@ export default function Home() {
               />
             </div>
             <div className="p-4 sm:p-12">
-            <p className='text-xl italic'>Theme</p>
+              <p className='text-xl italic'>Theme</p>
 
               <p className='text-3xl mb-8'>Flamboyant Futuranium</p>
               <p className='text-sm sm:text'>Traversing through the cosmic millennium, we stumble across a distant planet exuding a glitzy vibe. Its tantalizing aura beckons you to surrender yourself to its enticement. Before you lies a symphony of the celestials; Multitudes of watchful eyes throughout the years behold before themselves alongside, the essence of light and color thronging through the air; The brilliance around tempts you to come closer, to drench yourself in its warm embrace.Being drawn towards its ethos is nigh inevitable. So come ushering into this lavish ambience of flamboyance & synergy and immerse yourself within the realms of the future to experience technology like never before.</p>
@@ -119,7 +124,75 @@ export default function Home() {
       </motion.div>
 
 
+      <div className="my-20 hidden sm:block"
+      >
+        <p className='text-3xl my-8 text-center'>Event Schedule</p>
 
+        <div className="grid grid-cols-4 mx-20 bg-black rounded">
+          <div className="gradientRightBorder">
+            <div className="boxEvent font-semibold">Slots</div>
+            <div className="boxEvent" id="t1">10:00AM</div>
+            <div className="boxEvent" id="t2">11:00AM</div>
+            <div className="boxEvent" id="t3">12:00AM</div>
+            <div className="boxEvent" id="t4">01:00PM</div>
+            <div className="boxEvent" id="t5">02:00PM</div>
+            <div className="boxEvent">03:00PM</div>
+            <div className="boxEvent">04:00PM</div>
+            <div className="boxEvent">05:00PM</div>
+            <div className="boxEvent">06:00PM</div>
+            <div className="boxEvent">07:00PM</div>
+            <div className="boxEvent">08:00PM</div>
+            <div className="boxEvent">09:00PM</div>
+            <div className="boxEvent">10:00PM</div>
+            <div className="boxEvent">11:00PM</div>
+            <div className="boxEvent">12:00PM</div>
+          </div>
+          <div style={{ display: "grid", gridTemplateRows: "repeat(9,1fr) 2fr 1fr 2fr 1fr 1fr" }}>
+            <div className="boxEvent grid place-items-center font-semibold">6th May</div>
+            <div className="boxEvent grid place-items-center"></div>
+            <div className="boxEvent grid place-items-center"></div>
+            <div className="boxEvent grid place-items-center"></div>
+            <div className="boxEvent grid place-items-center"></div>
+            <div className="boxEvent grid place-items-center"></div>
+            <div className="boxEvent grid place-items-center"></div>
+            <div className="boxEvent grid place-items-center"></div>
+            <div className="boxEvent grid place-items-center"></div>
+            <div className="boxEvent grid place-items-center text-center">INAUGRATION from 6:30 to 8pm & CAD Star from 7pm</div>
+            <div className="boxEvent grid place-items-center">UAV 4 U</div>
+            <div className="boxEvent grid place-items-center">Amnesia</div>
+            <div className="boxEvent grid place-items-center">Star Gazers  </div>
+            <div className="boxEvent grid place-items-center">Slots</div>
+          </div>
+          <div style={{ display: "grid", gridTemplateRows: "repeat(4,1fr) 2fr 2fr 1fr 1fr 6fr" }}>
+            <div className="boxEvent grid place-items-center font-semibold">7th May</div>
+            <div className="boxEvent grid place-items-center">Simulate-e-Abaqus(3hr)</div>
+            <div className="boxEvent grid place-items-center">Astronomically Smart</div>
+            <div className="boxEvent grid place-items-center">Capture the Flag</div>
+            <div className="boxEvent grid place-items-center">Fundamentals of Stock Market</div>
+            <div className="boxEvent grid place-items-center">TPC</div>
+            <div className="boxEvent grid place-items-center">Akhilesh Guest Talk</div>
+            <div className="boxEvent grid place-items-center" onClick={() => setMark(10, 10, 3)}>MESH GUEST TALK(1hr)</div>
+            <div className="boxEvent grid place-items-center text-4xl font-bold"
+              style={{ background: "url(https://static.toiimg.com/photo/msid-71050124/71050124.jpg)", backgroundSize: "cover" }}
+            >The Landers</div>
+          </div>
+          <div style={{ display: "grid", gridTemplateRows: "repeat(4,1fr) 2fr repeat(4,1fr) 6fr" }}>
+            <div className="boxEvent grid place-items-center font-semibold">8th May</div>
+            <div className="boxEvent grid place-items-center">Simulate-e-Abaqus(3hr)</div>
+            <div className="boxEvent grid place-items-center"></div>
+            <div className="boxEvent grid place-items-center">Hack the Build</div>
+            <div className="boxEvent grid place-items-center">Tr-SAE-ure</div>
+            <div className="boxEvent grid place-items-center">Astrophysics</div>
+            <div className="boxEvent grid place-items-center"></div>
+            <div className="boxEvent grid place-items-center">NextGen Blockchain</div>
+            <div className="boxEvent grid place-items-center"></div>
+            <div className="font-bold text-4xl boxEvent grid place-items-center"
+              style={{ background: "url(https://media.istockphoto.com/photos/concert-party-picture-id1001487418?b=1&k=20&m=1001487418&s=170667a&w=0&h=933qzZkFeROBf5HU1RVi0oklm6wyDtXwok4-tTrxyLU=)" }}
+            >BDM Night</div>
+
+          </div>
+        </div>
+      </div>
 
       {/* <div ref={titleSponsorRef} onMouseMove={(e)=>{exactLocation(e)}} className="pt-20 sm:pt-40 overflow-hidden pb-20 grid place-items-center relative">
         <div ref={cursorRef} className="cursor"></div>
@@ -157,7 +230,7 @@ export default function Home() {
       </div>
 
 
-            <motion.div
+      <motion.div
         initial="initial"
         exit="exit"
         animate={inView && "animate"}

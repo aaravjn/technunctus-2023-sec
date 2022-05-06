@@ -12,6 +12,14 @@ body {
   overflow-x:hidden;
 }
 
+.boxEvent{
+  padding:0.25rem;
+  border-radius:0.25rem;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  cursor:pointer;
+}
 .coverBg{
 background:linear-gradient(transparent,#1a1a1a);
 }

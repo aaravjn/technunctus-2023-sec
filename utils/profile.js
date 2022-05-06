@@ -11,7 +11,7 @@ const profile = [{
     type: "Convener",
     contact_no: "+91 6005530882",
     email: "2019uce0058@iitjammu.ac.in",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+    source_url: "/static/teamheads/saurav.jpg"
 }, {
     key: 1002,
     name: "Vansh Rai Saini",
