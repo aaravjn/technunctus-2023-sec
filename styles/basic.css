@@ -19,6 +19,14 @@ body {
   background-repeat: no-repeat;
   background-position:center;
   cursor:pointer;
+  height:15rem;
+  width:100%;
+  margin:0.1rem;
+  text-align:center;
+  background:black;
+}
+.boxsRow{
+  display:flex !important;
 }
 .coverBg{
 background:linear-gradient(transparent,#1a1a1a);

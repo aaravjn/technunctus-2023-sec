@@ -14,6 +14,9 @@ import Tilt from "react-parallax-tilt"
 import { teamHead } from "../utils/framer"
 import { useRouter } from "next/router"
 import { isMobile } from "react-device-detect"
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick"
 
 export default function Home() {
 
@@ -22,6 +25,16 @@ export default function Home() {
   const cursorRef = useRef(null)
   const titleSponsorRef = useRef(null)
   const router = useRouter()
+  const settings = {
+    dots: true,
+    infinite: true,
+    arrow: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
 
 
   const transform1 = useTransform(scrollY, [2200, 3000], [0.2, 1]);
@@ -32,16 +45,6 @@ export default function Home() {
   const setMark = () => {
 
   }
-  const exactLocation = (e) => {
-    console.log(e.pageX, e.pageY, cursorRef.current)
-    let bounds = titleSponsorRef.current.getBoundingClientRect();
-    let x = e.clientX - bounds.left;
-    let y = e.clientY - bounds.top;
-
-    cursorRef.current.style.left = x + "px";
-    cursorRef.current.style.top = y + "px";
-  }
-
   return (
     <div>
       <Head>
@@ -113,11 +116,6 @@ export default function Home() {
 
               <p className='text-3xl mb-8'>Flamboyant Futuranium</p>
               <p className='text-sm sm:text'>Traversing through the cosmic millennium, we stumble across a distant planet exuding a glitzy vibe. Its tantalizing aura beckons you to surrender yourself to its enticement. Before you lies a symphony of the celestials; Multitudes of watchful eyes throughout the years behold before themselves alongside, the essence of light and color thronging through the air; The brilliance around tempts you to come closer, to drench yourself in its warm embrace.Being drawn towards its ethos is nigh inevitable. So come ushering into this lavish ambience of flamboyance & synergy and immerse yourself within the realms of the future to experience technology like never before.</p>
-              {/* <Link
-                href="/a"
-              >
-                <a className="gradientButton inline-block mt-4">Read More</a>
-              </Link> */}
             </div>
           </div>
         </div>
@@ -128,69 +126,59 @@ export default function Home() {
       >
         <p className='text-3xl my-8 text-center'>Event Schedule</p>
 
-        <div className="grid grid-cols-4 mx-20 bg-black rounded">
-          <div className="gradientRightBorder">
-            <div className="boxEvent font-semibold">Slots</div>
-            <div className="boxEvent" id="t1">10:00AM</div>
-            <div className="boxEvent" id="t2">11:00AM</div>
-            <div className="boxEvent" id="t3">12:00AM</div>
-            <div className="boxEvent" id="t4">01:00PM</div>
-            <div className="boxEvent" id="t5">02:00PM</div>
-            <div className="boxEvent">03:00PM</div>
-            <div className="boxEvent">04:00PM</div>
-            <div className="boxEvent">05:00PM</div>
-            <div className="boxEvent">06:00PM</div>
-            <div className="boxEvent">07:00PM</div>
-            <div className="boxEvent">08:00PM</div>
-            <div className="boxEvent">09:00PM</div>
-            <div className="boxEvent">10:00PM</div>
-            <div className="boxEvent">11:00PM</div>
-            <div className="boxEvent">12:00PM</div>
-          </div>
-          <div style={{ display: "grid", gridTemplateRows: "repeat(9,1fr) 2fr 1fr 2fr 1fr 1fr" }}>
-            <div className="boxEvent grid place-items-center font-semibold">6th May</div>
-            <div className="boxEvent grid place-items-center"></div>
-            <div className="boxEvent grid place-items-center"></div>
-            <div className="boxEvent grid place-items-center"></div>
-            <div className="boxEvent grid place-items-center"></div>
-            <div className="boxEvent grid place-items-center"></div>
-            <div className="boxEvent grid place-items-center"></div>
-            <div className="boxEvent grid place-items-center"></div>
-            <div className="boxEvent grid place-items-center"></div>
-            <div className="boxEvent grid place-items-center text-center">INAUGRATION from 6:30 to 8pm & CAD Star from 7pm</div>
-            <div className="boxEvent grid place-items-center">UAV 4 U</div>
-            <div className="boxEvent grid place-items-center">Amnesia</div>
-            <div className="boxEvent grid place-items-center">Star Gazers  </div>
-            <div className="boxEvent grid place-items-center">Slots</div>
-          </div>
-          <div style={{ display: "grid", gridTemplateRows: "repeat(4,1fr) 2fr 2fr 1fr 1fr 6fr" }}>
-            <div className="boxEvent grid place-items-center font-semibold">7th May</div>
-            <div className="boxEvent grid place-items-center">Simulate-e-Abaqus(3hr)</div>
-            <div className="boxEvent grid place-items-center">Astronomically Smart</div>
-            <div className="boxEvent grid place-items-center">Capture the Flag</div>
-            <div className="boxEvent grid place-items-center">Fundamentals of Stock Market</div>
-            <div className="boxEvent grid place-items-center">TPC</div>
-            <div className="boxEvent grid place-items-center">Akhilesh Guest Talk</div>
-            <div className="boxEvent grid place-items-center" onClick={() => setMark(10, 10, 3)}>MESH GUEST TALK(1hr)</div>
-            <div className="boxEvent grid place-items-center text-4xl font-bold"
-              style={{ background: "url(https://static.toiimg.com/photo/msid-71050124/71050124.jpg)", backgroundSize: "cover" }}
-            >The Landers</div>
-          </div>
-          <div style={{ display: "grid", gridTemplateRows: "repeat(4,1fr) 2fr repeat(4,1fr) 6fr" }}>
-            <div className="boxEvent grid place-items-center font-semibold">8th May</div>
-            <div className="boxEvent grid place-items-center">Simulate-e-Abaqus(3hr)</div>
-            <div className="boxEvent grid place-items-center"></div>
-            <div className="boxEvent grid place-items-center">Hack the Build</div>
-            <div className="boxEvent grid place-items-center">Tr-SAE-ure</div>
-            <div className="boxEvent grid place-items-center">Astrophysics</div>
-            <div className="boxEvent grid place-items-center"></div>
-            <div className="boxEvent grid place-items-center">NextGen Blockchain</div>
-            <div className="boxEvent grid place-items-center"></div>
-            <div className="font-bold text-4xl boxEvent grid place-items-center"
-              style={{ background: "url(https://media.istockphoto.com/photos/concert-party-picture-id1001487418?b=1&k=20&m=1001487418&s=170667a&w=0&h=933qzZkFeROBf5HU1RVi0oklm6wyDtXwok4-tTrxyLU=)" }}
-            >BDM Night</div>
+        <div className="mx-20 rounded">
+          <Slider {...settings}>
 
-          </div>
+            <div>
+            <p className="text-4xl font-semibold mb-4">Day 1 (6<sup>th</sup> May) </p>
+              <div className="boxsRow" style={{ display: "grid !important", gridTemplateColumns: "repeat(4,1fr)" }}>
+                <div className="boxEvent grid place-items-center text-center">INAUGRATION from 6:30 to 8pm & CAD Star from 7pm</div>
+                <div className="boxEvent grid place-items-center">UAV 4 U</div>
+                <div className="boxEvent grid place-items-center">Amnesia</div>
+                <div className="boxEvent grid place-items-center">Star Gazers  </div>
+              </div>
+            </div>
+            <div>
+              <p className="text-4xl font-semibold mb-4">Day 2 (7<sup>th</sup> May) </p>
+
+              <div className="boxsRow" style={{ display: "grid", gridTemplateColumns: "repeat(8,1fr) " }}>
+                <div className="boxEvent grid place-items-center">Simulate-e-Abaqus(3hr)</div>
+                <div className="boxEvent grid place-items-center">Astronomically Smart</div>
+                <div className="boxEvent grid place-items-center">Capture the Flag</div>
+                <div className="boxEvent grid place-items-center">Fundamentals of Stock Market</div>
+                <div className="boxEvent grid place-items-center">TPC</div>
+                <div className="boxEvent grid place-items-center">Akhilesh Guest Talk</div>
+                <div className="boxEvent grid place-items-center">MESH GUEST TALK(1hr)</div>
+                <div className="boxEvent grid place-items-center"
+                  style={{ background: "url(https://static.toiimg.com/photo/msid-71050124/71050124.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}
+                >The Landers</div>
+              </div>
+            </div>
+            <div>
+            <p className="text-4xl font-semibold mb-4">Day 3 (8<sup>th</sup> May) </p>
+
+              <div className="boxsRow" style={{ display: "grid", gridTemplateColumns: "repeat(6,1fr)" }}>
+                <div className="boxEvent grid place-items-center"
+                  style={{ background: "url(https://images.unsplash.com/photo-1585166059782-f28143545183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVjaGFuaWNhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60)" }}
+                >Simulate-e-Abaqus(3hr)</div>
+                <div className="boxEvent grid place-items-center"
+                  style={{ background: "url(https://media.wired.com/photos/5aac56eb491c2d69af42197d/master/pass/Hackathons-RTS12CJ0.jpgg)" }}
+                >Hack the Build</div>
+                <div className="boxEvent grid place-items-center"
+                  style={{ background: "url(https://images.unsplash.com/photo-1581092335397-9583eb92d232?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lY2hhbmljYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60)" }}
+                >Tr-SAE-ure</div>
+                <div className="boxEvent grid place-items-center"
+                  style={{ background: "url(https://images.unsplash.com/photo-1518589794402-58a93db13b83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFzdHJvbm9teXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60)" }}
+                >Astrophysics</div>
+                <div className="boxEvent grid place-items-center"
+                >NextGen Blockchain</div>
+                <div className="font-bold text-4xl boxEvent grid place-items-center"
+                  style={{ background: "url(https://media.istockphoto.com/photos/concert-party-picture-id1001487418?b=1&k=20&m=1001487418&s=170667a&w=0&h=933qzZkFeROBf5HU1RVi0oklm6wyDtXwok4-tTrxyLU=)" }}
+                >BDM Night</div>
+              </div>
+
+            </div>
+          </Slider>
         </div>
       </div>
 

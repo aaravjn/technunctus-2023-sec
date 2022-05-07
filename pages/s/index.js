@@ -28,6 +28,39 @@ const Sponsors = () => {
                 <Tilt>
                     <div className="mb-20 mx-20 p-20 rounded gradientBorder bg-black grid place-items-center">
                         <div className="text-center text-2xl sm:text-3xl">
+                            <p>Title Sponsor</p>
+                            <div>
+                                <Link
+                                    href="https://www.geeksforgeeks.org/"
+                                >
+                                    <a
+                                        target="_blank"
+                                        className='flex justify-center text-6xl sm:text-7xl m-4'>
+                                        <div className="relative h-auto  w-40">
+
+                                            <Image
+                                                src="https://digitalterminal.in/uploads/news/1616478730s_iValue-InfoSolutions.jpg"
+                                                alt="GFG LOGO"
+                                                layout="responsive"
+                                                height={1}
+                                                width={2}
+                                                objectFit="contain"
+                                            />
+                                        </div>
+                                        <p className="ml-4 font-semibold">iValue</p>
+                                    </a>
+                                </Link>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+            </motion.div>
+            <motion.div
+                className="mt-8">
+                <Tilt>
+                    <div className="mb-20 mx-20 p-20 rounded gradientBorder bg-black grid place-items-center">
+                        <div className="text-center text-2xl sm:text-3xl">
                             <p>Coding Partner</p>
                             <div>
                                 <Link
