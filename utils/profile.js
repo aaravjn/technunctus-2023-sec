@@ -1,9 +1,11 @@
 const profile = [{
     key: 1,
-    name: "Shreyas Chatterjee",
+    name: "Devin Chugh",
     type: "Chairperson",
     contact_no: "+91 7000172797",
     email: "2019ucs0097@iitjammu.ac.in",
+    insta_id: "https://www.instagram.com/devinchugh",
+    linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
     source_url: "/static/teamheads/cp.jpeg"
 }, {
     key: 1001,
