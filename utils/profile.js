@@ -2,88 +2,100 @@ const profile = [{
     key: 1,
     name: "Devin Chugh",
     type: "Chairperson",
-    contact_no: "+91 7000172797",
-    email: "2019ucs0097@iitjammu.ac.in",
+    contact_no: "+91 9079831867",
+    email: "2020ume0206@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/devinchugh",
     linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
     source_url: "/static/teamheads/cp.jpeg"
 }, {
     key: 1001,
-    name: "Saurav Kumar Srivastava",
+    name: "Premveer Singh",
     type: "Convener",
-    contact_no: "+91 6005530882",
-    email: "2019uce0058@iitjammu.ac.in",
+    contact_no: "+91 9811122419",
+    email: "2020uch0012@iitjammu.ac.in",
+    insta_id: "https://instagram.com/follow.premveer",
+    linkedin: "https://www.linkedin.com/in/premveersingh",
     source_url: "/static/teamheads/saurav.jpg"
 }, {
     key: 1002,
-    name: "Vansh Rai Saini",
+    name: "Krishnendu Maity",
     type: "Convener",
-    contact_no: "+91 9654458060",
-    email: "2019ume0200@iitjammu.ac.in",
+    contact_no: "+91 7602209745",
+    email: "2020uch0010@iitjammu.ac.in",
+    insta_id: "https://www.instagram.com/invites/contact/?i=12vtwbuzawlev&utm_content=3xvyrsc",
+    linkedin: "https://www.linkedin.com/in/krishnendu-maity-08729820a",
     source_url: "/static/teamheads/vansh.jpeg"
 }, {
     key: 1003,
-    name: "Priyanshu Kumar",
+    name: "Gaurav Jagarbad",
     type: "Convener",
-    contact_no: "+91 6388115067",
-    email: "2019umt0161@iitjammu.ac.in",
+    contact_no: "+91 9928084418",
+    email: "2020uce0075@iitjammu.ac.in",
+    insta_id: "https://www.instagram.com/invites/contact/?i=1xs5bh9zw49kc&utm_content=e2dspf0",
+    linkedin: "https://www.linkedin.com/in/gaurav-jagarbad-29b20b228",
     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
 }, {
     key: 1004,
-    name: "Shreyash Chatterjee",
+    name: "Devin Chugh",
     type: "Chairperson",
-    contact_no: "+91 9873240044",
-    email: "2019ume0184@iitjammu.ac.in",
+    contact_no: "+91 9079831867",
+    email: "2020ume0206@iitjammu.ac.in",
+    insta_id: "https://www.instagram.com/devinchugh",
+    linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
-}, {
-    key: 2001,
-    name: "Sinchan Ghosh",
-    type: "Coding Club Head",
-    contact_no: "+91 7204490036",
-    email: "2020ucs0240@iitjammu.ac.in",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
-}, {
-    key: 2002,
-    name: "Amol Jaggi",
-    type: "SAE Head",
-    contact_no: "+91 9906293894",
-    email: "2019ume0189@iitjammu.ac.in",
-    source_url: "/static/teamheads/amol.jpeg"
-}, {
-    key: 2003,
-    name: "Ankit Hooda",
-    type: "Robotics Club Head",
-    contact_no: "+91 9991099378",
-    email: "2020ume0215@iitjammu.ac.in",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
-}, {
-    key: 2004,
-    name: "Palak Dobal",
-    type: "Astronomy Club Head",
-    contact_no: "+91 7302858863",
-    email: "2020umt0173@iitjammu.ac.in",
-    source_url: "/static/teamheads/palak.jpg"
-}, {
-    key: 2005,
-    name: "Soubhav",
-    type: "Finance And Analytic Club Head",
-    contact_no: "+91 9419254929",
-    email: "2019umt0172@iitjammu.ac.in",
-    source_url: "/static/teamheads/soubhav.jpeg"
-},
+}, 
+// {
+//     key: 2001,
+//     name: "Sinchan Ghosh",
+//     type: "Coding Club Head",
+//     contact_no: "+91 7204490036",
+//     email: "2020ucs0240@iitjammu.ac.in",
+//     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+// }, {
+//     key: 2002,
+//     name: "Amol Jaggi",
+//     type: "SAE Head",
+//     contact_no: "+91 9906293894",
+//     email: "2019ume0189@iitjammu.ac.in",
+//     source_url: "/static/teamheads/amol.jpeg"
+// }, {
+//     key: 2003,
+//     name: "Ankit Hooda",
+//     type: "Robotics Club Head",
+//     contact_no: "+91 9991099378",
+//     email: "2020ume0215@iitjammu.ac.in",
+//     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+// }, {
+//     key: 2004,
+//     name: "Palak Dobal",
+//     type: "Astronomy Club Head",
+//     contact_no: "+91 7302858863",
+//     email: "2020umt0173@iitjammu.ac.in",
+//     source_url: "/static/teamheads/palak.jpg"
+// }, {
+//     key: 2005,
+//     name: "Soubhav",
+//     type: "Finance And Analytic Club Head",
+//     contact_no: "+91 9419254929",
+//     email: "2019umt0172@iitjammu.ac.in",
+//     source_url: "/static/teamheads/soubhav.jpeg"
+// },
 {
     key: 3001,
-    name: "Nishita Phillip",
+    name: "Sunny Kumar",
     type: "Event Management Head",
-    contact_no: "+91 9622009841'",
-    email: "2019umt0154@iitjammu.ac.in",
+    contact_no: "+91 8708098785'",
+    email: "2021uch0036@iitjammu.ac.in",
+    insta_id: "https://instagram.com/its_sunny_036?igshid=NTA5ZTk1NTc=",
+    linkedin: "https://www.linkedin.com/in/sunny-kumar-272982240",
     source_url: "/static/teamheads/team8.jpeg"
 }, {
     key: 2,
-    name: "Himani Khobragade",
+    name: "Devesh Mani",
     type: "Event Management Head",
     contact_no: "+91 07024824825",
-    email: "2020ucs0116@iitjammu.ac.in",
+    email: "2020uce0056@iitjammu.ac.in",
+    linkedin: "https://www.linkedin.com/in/devesh-mani-upadhyay",
     source_url: "/static/teamheads/team13.jpg"
 }, {
     key: 1,
@@ -134,10 +146,11 @@ const profile = [{
 },
 {
     key: 3,
-    name: "Kanishk Mahawar",
+    name: "Yashwant Choudhary ",
     type: "Infrastructure Head",
-    contact_no: "+91 9784544559",
-    email: "2020ucs0113@iitjammu.ac.in",
+    contact_no: "+91 7073639277",
+    email: "2020umt0181@iitjammu.ac.in",
+    insta_id: "https://www.instagram.com/invites/contact/?i=dzn5cbe0wv5x&utm_content=2pjx0m1",
     source_url: "/static/teamheads/team15.jpg"
 }, {
     key: 2,
@@ -255,4 +268,8 @@ const profile = [{
     email: "2020uce0061@iitjammu.ac.in",
     source_url: "/static/teamheads/team10.jpeg"
 }]
+// Indexes:
+// Chairperson - 0, 4;
+// Convenors - 1,2,3;
+// 
 export default profile
