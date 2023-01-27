@@ -35,15 +35,15 @@ const profile = [{
     linkedin: "https://www.linkedin.com/in/gaurav-jagarbad-29b20b228",
     source_url: "/static/teamheads/gaurav.jpg"
 }, {
-    key: 1004,
-    name: "Devin Chugh",
-    type: "Chairperson",
-    contact_no: "+91 9079831867",
-    email: "2020ume0206@iitjammu.ac.in",
-    insta_id: "https://www.instagram.com/devinchugh",
-    linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
-    source_url: "/static/teamheads/devin.jpg"
-}, 
+    key: 4,
+    name: "Deepanshu Mittal",
+    type: "Convener",
+    contact_no: "+91 8769183354",
+    email: "2020ume0208@iitjammu.ac.in",
+    insta_id: "https://www.instagram.com/deeeeeeps_/",
+    linkedin: "https://www.linkedin.com/in/deepanshu-mittal2002/",
+    source_url: "/static/teamheads/deepanshu.jpg"
+},
 // {
 //     key: 2001,
 //     name: "Sinchan Ghosh",
@@ -133,7 +133,7 @@ const profile = [{
     email: "2020ucs0092@iitjammu.ac.in",
     insta_id: "",
     linkedin: "",
-    source_url: "/static/teamheads/sanjana.JPG"
+    source_url: "/static/teamheads/sanjana.jpg"
 },
 {
     key: 4,
@@ -170,7 +170,7 @@ const profile = [{
     contact_no: "+91 7073639277",
     email: "2020umt0181@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/invites/contact/?i=dzn5cbe0wv5x&utm_content=2pjx0m1",
-    source_url: "/static/teamheads/yashwant.jpeg"
+    source_url: "/static/teamheads/yashwant.jpg"
 }, 
 // {
 //     key: 2,
@@ -233,7 +233,7 @@ const profile = [{
     email: "2021uee0150@iitjammu.ac.in",
     insta_id: "https://instagram.com/pratham._.modi_?igshid=NTA5ZTk1NTc=",
     linkedin: "https://www.linkedin.com/in/pratham-modi-670138250",
-    source_url: "/static/teamheads/team3.jpg"
+    source_url: "/static/teamheads/pratham.jpg"
 }, {
     key: 2,
     name: "Yamini Karadia",
@@ -242,7 +242,7 @@ const profile = [{
     email: "2021ucs0121@iitjammu.ac.in",
     insta_id: "https://instagram.com/_yamiiniiii_?igshid=NTA5ZTk1NTc=",
     linkedin: "https://www.linkedin.com/in/yamini-karadia-764689228",
-    source_url: "/static/teamheads/prat.jpg"
+    source_url: "/static/teamheads/yamini.jpg"
 }, 
 {
     key: 3,
@@ -252,7 +252,7 @@ const profile = [{
     email: "2021uee0144@iitjammu.ac.in",
     insta_id: "https://instagram.com/janatdeep090603?igshid=NTA5ZTk1NTc=",
     linkedin: "https://www.linkedin.com/in/janatdeep-singh-3a7234226",
-    source_url: "/static/teamheads/team12.jpg"
+    source_url: "/static/teamheads/jatandeep.jpg"
 }, 
 {
     key: 3,
@@ -262,7 +262,7 @@ const profile = [{
     email: "2020uee0136@iitjammu.ac.in",
     insta_id: "https://instagram.com/its_me_prabhakar_048?igshid=OGQ2MjdiOTE=",
     linkedin: "",
-    source_url: "/static/teamheads/team4.jpeg"
+    source_url: "/static/teamheads/prabhakar.jpg"
 },
  {
     key: 3,
@@ -272,7 +272,7 @@ const profile = [{
     email: "2021uce0065@iitjammu.ac.in",
     insta_id: "https://instagram.com/its_mohit_yadav_?igshid=NTA5ZTk1NTc=",
     linkedin: "",
-    source_url: "/static/teamheads/team6.jpg"
+    source_url: "/static/teamheads/mohit.jpg"
 },
  {
     key: 3,
@@ -282,7 +282,7 @@ const profile = [{
     email: "2021uee0130@iitjammu.ac.in",
     insta_id: "",
     linkedin: "",
-    source_url: "/static/teamheads/team6.jpg"
+    source_url: "/static/teamheads/anant.jpg"
 },
  {
     key: 41,
@@ -292,7 +292,7 @@ const profile = [{
     email: "2021ucs0080@iitjammu.ac.in",
     insta_id: "",
     linkedin: "https://www.linkedin.com/in/aaravjn/",
-    source_url: "/static/teamheads/ashu.jpg"
+    source_url: "/static/teamheads/aarav.jpg"
 },
 {
     key: 4,
@@ -302,8 +302,20 @@ const profile = [{
     email: "2020uce0060@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/kumarshivam08/?next=%2F",
     linkedin: "https://www.linkedin.com/in/shivam-kumar08/",
-    source_url: "/static/teamheads/spider.jpeg"
-}, 
+    source_url: "/static/teamheads/shivam.jpg"
+},
+{
+    key: 4,
+    name: "Amit Kumar Yadav",
+    type: "",
+    contact_no: "+91 96537 42509",
+    email: "2021uee0129@iitjammu.ac.in",
+    insta_id: "",
+    linkedin: "",
+    source_url: "/static/teamheads/amit.jpg"
+},
+
+
 // {
 //     key: 2,
 //     name: "Ayush Sonkar",

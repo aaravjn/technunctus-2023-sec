@@ -54,23 +54,24 @@ export default function TemporaryDrawer({ title, reg_close, image, description, 
                                     <p className="font-bold text-4xl">{title}</p>
                                     <p className=" mt-4">{description}</p>
                                     <div className="mt-4">
-                                        {
+                                        {/* {
                                             drive_link.length !== 0
                                             &&
                                             <button className='border border-[#00fffb] gradientButton'
                                                 onClick={() => window.open(drive_link)}
                                                 style={{ background: "Transparent", marginRight: "1rem" }}
                                             >Brochure</button>
-                                        }
+                                        } */}
 
                                         {
-                                            !reg_close && reg_url.length !== 14
-                                            &&
+                                            // !reg_close && reg_url.length !== 14
+                                            // &&
                                             <button className="gradientButton"
                                                 onClick={() => window.open(reg_url)}
-                                            >Register</button>
+                                                disabled={true}
+                                            >Coming soon....</button>
                                         }
-                                        {
+                                        {/* {
                                             reg_close === true
                                             &&
                                             <button 
@@ -78,7 +79,7 @@ export default function TemporaryDrawer({ title, reg_close, image, description, 
                                             style={{ background: "Transparent", marginRight: "1rem" }}
 
                                             >Registeration Closed</button>
-                                        }
+                                        } */}
 
                                     </div>
                                 </div>

@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps,router }) {
       <Head>
         <link rel="shortcut icon" href="/static/logo.png" />
         <meta charSet="UTF-8"/>
-        <meta name="description" content="The IIT Jammu family takes immense pleasure in inviting you all to the third edition of our Annual Tech Fest, Technunctus’21, which is scheduled from 17th-18th April 2021 in complete Online Mode"/>
-        <meta name="keywords" content="TECHFEST, spider8019, IIT JAMMU, TECHNUNCTUS"/>
+        <meta name="description" content="The IIT Jammu family takes immense pleasure in inviting you all to the third edition of our Annual Tech Fest, Technunctus’23, which is scheduled from 17th-18th April 2023 in complete Online Mode"/>
+        <meta name="keywords" content="TECHFEST, aaravjn, IIT JAMMU, TECHNUNCTUS"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
       </Head>
       <AnimatePresence exitBeforeEnter>

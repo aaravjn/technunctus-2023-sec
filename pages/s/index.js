@@ -84,7 +84,7 @@ const Sponsors = () => {
                                     </a>
                                 </Link>
                                 <p>Don&apos;t Learn Alone
-                                    Be the &apos;Pro&apos; in the Programming</p>
+                                    Be a &apos;Pro&apos; in Programming</p>
                                 <ul className='grid gap-4 grid-cols-5 mt-4 mx-40'>
                                     <li>
                                         <Link
