@@ -6,7 +6,7 @@ const profile = [{
     email: "2020ume0206@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/devinchugh",
     linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
-    source_url: "/static/teamheads/cp.jpeg"
+    source_url: "/static/teamheads/devin.jpg"
 }, {
     key: 1001,
     name: "Premveer Singh",
@@ -15,7 +15,7 @@ const profile = [{
     email: "2020uch0012@iitjammu.ac.in",
     insta_id: "https://instagram.com/follow.premveer",
     linkedin: "https://www.linkedin.com/in/premveersingh",
-    source_url: "/static/teamheads/saurav.jpg"
+    source_url: "/static/teamheads/premveer.jpg"
 }, {
     key: 1002,
     name: "Krishnendu Maity",
@@ -24,7 +24,7 @@ const profile = [{
     email: "2020uch0010@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/invites/contact/?i=12vtwbuzawlev&utm_content=3xvyrsc",
     linkedin: "https://www.linkedin.com/in/krishnendu-maity-08729820a",
-    source_url: "/static/teamheads/vansh.jpeg"
+    source_url: "/static/teamheads/krishnendu.jpg"
 }, {
     key: 1003,
     name: "Gaurav Jagarbad",
@@ -33,7 +33,7 @@ const profile = [{
     email: "2020uce0075@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/invites/contact/?i=1xs5bh9zw49kc&utm_content=e2dspf0",
     linkedin: "https://www.linkedin.com/in/gaurav-jagarbad-29b20b228",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+    source_url: "/static/teamheads/gaurav.jpg"
 }, {
     key: 1004,
     name: "Devin Chugh",
@@ -42,7 +42,7 @@ const profile = [{
     email: "2020ume0206@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/devinchugh",
     linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
-    source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
+    source_url: "/static/teamheads/devin.jpg"
 }, 
 // {
 //     key: 2001,
@@ -88,7 +88,7 @@ const profile = [{
     email: "2021uch0036@iitjammu.ac.in",
     insta_id: "https://instagram.com/its_sunny_036?igshid=NTA5ZTk1NTc=",
     linkedin: "https://www.linkedin.com/in/sunny-kumar-272982240",
-    source_url: "/static/teamheads/team8.jpeg"
+    source_url: "/static/teamheads/sunny.JPG"
 }, {
     key: 2,
     name: "Devesh Mani",
@@ -97,7 +97,7 @@ const profile = [{
     email: "2020uce0056@iitjammu.ac.in",
     insta_id: "",
     linkedin: "https://www.linkedin.com/in/devesh-mani-upadhyay",
-    source_url: "/static/teamheads/team13.jpg"
+    source_url: "/static/teamheads/devesh.jpg"
 }, {
     key: 1,
     name: "Shruti Meena",
@@ -106,7 +106,7 @@ const profile = [{
     email: "2021ume0231@iitjammu.ac.in",
     insta_id: "",
     linkedin: "",
-    source_url: "/static/teamheads/team19.jpg"
+    source_url: "/static/teamheads/shruti.jpg"
 }, {
     key: 1,
     name: "Bhavna Verma",
@@ -115,7 +115,7 @@ const profile = [{
     email: "2021uce0053@iitjammu.ac.in",
     insta_id: "https://instagram.com/_bhavna.verma_?igshid=OGQ2MjdiOTE=",
     linkedin: "",
-    source_url: "/static/teamheads/team19.jpg"
+    source_url: "/static/teamheads/bhavna.jpg"
 },
 // {
 //     key: 1,
@@ -133,7 +133,7 @@ const profile = [{
     email: "2020ucs0092@iitjammu.ac.in",
     insta_id: "",
     linkedin: "",
-    source_url: "/static/teamheads/team11.jpeg"
+    source_url: "/static/teamheads/sanjana.JPG"
 },
 {
     key: 4,
@@ -143,7 +143,7 @@ const profile = [{
     email: "2021umt0195@iitjammu.ac.in",
     insta_id: "https://instagram.com/_tanisha._.__?igshid=NTA5ZTk1NTc=",
     linkedin: "https://www.linkedin.com/in/tanisha-khare-529752218",
-    source_url: "/static/teamheads/shubham.jpg"
+    source_url: "/static/teamheads/tanisha.jpg"
 },
 {
     key: 2,
@@ -153,7 +153,7 @@ const profile = [{
     email: "sahil4nfl@gmail.com",
     insta_id: "",
     linkedin: "https://www.linkedin.com/in/sahil-agrawal-654701235/",
-    source_url: "/static/teamheads/team20.png"
+    source_url: "/static/teamheads/sahil.jpg"
 },
 // {
 //     key: 2,
@@ -170,7 +170,7 @@ const profile = [{
     contact_no: "+91 7073639277",
     email: "2020umt0181@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/invites/contact/?i=dzn5cbe0wv5x&utm_content=2pjx0m1",
-    source_url: "/static/teamheads/team15.jpg"
+    source_url: "/static/teamheads/yashwant.jpeg"
 }, 
 // {
 //     key: 2,
@@ -204,7 +204,7 @@ const profile = [{
     email: "2021uee0153@iitjammu.ac.in",
     insta_id: "https://instagram.com/satyanshsharma3?igshid=NTA5ZTk1NTc=",
     linkedin: "",
-    source_url: "/static/teamheads/team17.jpg"
+    source_url: "/static/teamheads/satyansh.jpg"
 }, {
     key: 3,
     name: "Anshini Yadav",
@@ -213,7 +213,7 @@ const profile = [{
     email: "2021uee0153@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/anshini_yadav/",
     linkedin: "https://www.linkedin.com/in/anshini-yadav-718000232/",
-    source_url: "/static/teamheads/rehman.JPG"
+    source_url: "/static/teamheads/anshini.jpg"
 },
 {
     key: 4,
