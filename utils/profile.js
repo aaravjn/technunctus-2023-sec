@@ -223,7 +223,7 @@ const profile = [{
     email: "2020uee0143@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/saishaswat.pradhan/",
     linkedin: "https://www.linkedin.com/in/sai-shaswat-pradhan-170463228/",
-    source_url: "/static/teamheads/team18.jpg"
+    source_url: "/static/teamheads/sai.jpg"
 },
 {
     key: 2,
