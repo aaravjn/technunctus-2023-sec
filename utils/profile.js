@@ -172,6 +172,16 @@ const profile = [{
     insta_id: "https://www.instagram.com/invites/contact/?i=dzn5cbe0wv5x&utm_content=2pjx0m1",
     source_url: "/static/teamheads/yashwant.jpg"
 }, 
+{
+    key: 2,
+    name: "Riya Jain",
+    type: "Infrastructure Team Head",
+    contact_no: "",
+    email: "2020ucs0091@iitjammu.ac.in",
+    insta_id: "",
+    linkedin: "",
+    source_url: "/static/teamheads/riyajain.jpg"
+},
 // {
 //     key: 2,
 //     name: "Divya Jaiswal ",
@@ -307,7 +317,7 @@ const profile = [{
 {
     key: 4,
     name: "Amit Kumar Yadav",
-    type: "",
+    type: "Security team co-head",
     contact_no: "+91 96537 42509",
     email: "2021uee0129@iitjammu.ac.in",
     insta_id: "",
@@ -316,14 +326,8 @@ const profile = [{
 },
 
 
-// {
-//     key: 2,
-//     name: "Ayush Sonkar",
-//     type: "Games and Outdoor Activities Head",
-//     contact_no: "+91 9651635997",
-//     email: "2020uce0073@iitjammu.ac.in",
-//     source_url: "/static/teamheads/team9.jpeg"
-// }, {
+
+//  {
 //     key: 4,
 //     name: "Gaurav Kumar ",
 //     type: "Games and Outdoor Activities Head",
