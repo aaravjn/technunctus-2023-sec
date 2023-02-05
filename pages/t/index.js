@@ -69,7 +69,7 @@ const TeamHeads = () => {
                         exit="exit"
                         variants={teamMembersContainer}
                         className='grid sm:grid-cols-3 gap-8 mx-8 sm:mx-20'>
-                        {teamHeadsList.slice(6,).map((item, index) => {
+                        {teamHeadsList.slice(5,).map((item, index) => {
                             return (
                                 <Tilt key={item.key}>
                                     <motion.div variants={teamHead}>

@@ -88,7 +88,7 @@ const profile = [{
     email: "2021uch0036@iitjammu.ac.in",
     insta_id: "https://instagram.com/its_sunny_036?igshid=NTA5ZTk1NTc=",
     linkedin: "https://www.linkedin.com/in/sunny-kumar-272982240",
-    source_url: "/static/teamheads/sunny.JPG"
+    source_url: "/static/teamheads/sunny.jpg"
 }, {
     key: 2,
     name: "Devesh Mani",
@@ -303,6 +303,16 @@ const profile = [{
     insta_id: "",
     linkedin: "https://www.linkedin.com/in/aaravjn/",
     source_url: "/static/teamheads/aarav.jpg"
+},
+{
+    key:5,
+    name: "Prakhar Kapisway",
+    type: "Web Development Head",
+    contact_no: "+91 9508307404",
+    email: "2021ucs0106@iitjammu.ac.in",
+    insta_id: "https://www.instagram.com/_prakhar_kapisway_/",
+    linkedin: "https://www.linkedin.com/in/prakhar-kapisway-1524ba22b/",
+    source_url: "/static/teamheads/prakhar.jpg"
 },
 {
     key: 4,
